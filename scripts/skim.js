@@ -8,12 +8,23 @@ const whitelist = require('./whitelist.js');
 
 const axios = require('axios').default;
 
-const web3 = new Web3('ws://localhost:8546');
+//const web3 = new Web3('ws://localhost:8546');
+//https://mainnet.infura.io/v3/72e17810a98144ed8fd9858977f4e480
+const web3 = new Web3("wss://speedy-nodes-nyc.moralis.io/e5a9189dbc2434f16f95c642/eth/mainnet/ws")
+//const web3 = new Web3(
+//  new Web3.providers.WebsocketProvider("wss://mainnet.infura.io/ws/v3/72e17810a98144ed8fd9858977f4e480")
+//  new Web3.providers.WebsocketProvider("wss://speedy-nodes-nyc.moralis.io/e5a9189dbc2434f16f95c642/eth/mainnet/ws")
+//  new Web3("wss://speedy-nodes-nyc.moralis.io/e5a9189dbc2434f16f95c642/eth/mainnet/ws")
+//);
 
 const createPairTopic = '0x0d3648bd0f6ba80134a33ba9275ac585d9d315f0ad8355cddefde31afa28d0e9';
+const lastPair = '';
 
 let i = 0;
 const minDollarValue = 0.01;
+const markDollarValue = 100;
+var ETHprice=1;
+
 
 const getPairs = async count => {
 	if (count < events.length) {
@@ -40,28 +51,53 @@ const getPairs = async count => {
 						pairAbi,
 						pairAdd
 					);
+//					console.log('Before names');
 
-					const name0 = getName(token0Add) !== false ? getName(token0Add) : await token0contract.methods.name().call();
+					var name0='';
+					var name1='';
+					try{
+					    name0 = getName(token0Add) !== false ? getName(token0Add) : await token0contract.methods.name().call();
 
-					const name1 = getName(token1Add) !== false ? getName(token1Add) : await token1contract.methods.name().call();
+					    name1 = getName(token1Add) !== false ? getName(token1Add) : await token1contract.methods.name().call();
+					}
+					catch (error) {
+//					    console.log(`Names ERROR error in pair: ${pairAdd} , token0Add : ${token0Add} , token1Add : ${token1Add}`);
+//					    console.log(`${pairContract.abi} ${token0contract} ${token1contract}`);
+					    name0='ERR'
+					    name1='ERR'
+					};
+
+//					console.log('After names');
 
 					const reserves = await pairContract.methods
 						.getReserves()
 						.call();
+//					console.log(reserves);
 
 					const balanceRaw0 = await token0contract.methods
 						.balanceOf(pairAdd)
 						.call();
+//					console.log(balanceRaw0);
 
 					const balanceRaw1 = await token1contract.methods
 						.balanceOf(pairAdd)
 						.call();
+//					console.log(balanceRaw1);
 
 					const reserveRaw0 = await reserves[0];
 					const reserveRaw1 = await reserves[1];
 
-					const decimals0 = await token0contract.methods.decimals().call();
-					const decimals1 = await token1contract.methods.decimals().call();
+					var decimals0=18;
+					var decimals1=18;
+					try{
+					decimals0 = await token0contract.methods.decimals().call();
+//					console.log(decimals0);
+					decimals1 = await token1contract.methods.decimals().call();
+//					console.log(decimals1);
+					}
+					catch(error){
+//						console.log('decimals ERROR');
+					}
 
 					const balance0 = splitBN(balanceRaw0, decimals0, true);
 					const reserve0 = splitBN(reserveRaw0, decimals0, true);
@@ -70,6 +106,8 @@ const getPairs = async count => {
 
 					const difference0 = balanceRaw0 - reserveRaw0;
 					const difference1 = balanceRaw1 - reserveRaw1;
+
+//					console.log('Before pair');
 
 					const pair = {
 						pairAddress: pairAdd,
@@ -99,6 +137,7 @@ const getPairs = async count => {
 							} : false
 						}
 					};
+//					console.log('After pair');
 
 					if (
 						pair.token0.imbalance !== false ||
@@ -113,6 +152,13 @@ const getPairs = async count => {
 							Number(pair.token0.imbalance.value) > minDollarValue ||
               Number(pair.token1.imbalance.value) > minDollarValue
 						) {
+							if (
+							Number(pair.token0.imbalance.value) > markDollarValue ||
+              Number(pair.token1.imbalance.value) > markDollarValue
+							){
+							    console.log('!!!');
+							}
+
 							if (pair.token0.imbalance.value) {
 								pair.token0.imbalance.value = `$${(pair.token0.imbalance.value)} 🦄`;
 							}
@@ -128,8 +174,19 @@ const getPairs = async count => {
 				console.log(
 					`error in pair: 0x${events[count].data.slice(26, 66)},
 
-            ${error}`
+            ${error} ${events[count]}`
 				);
+				if (error.toString()=='Error: connection not open on send()'){
+				    process.exit(1);
+				}
+
+//				console.trace();
+    if (error.stack && 0) {
+      console.log('\nStacktrace:')
+      console.log('====================')
+      console.log(error.stack);
+    }
+
 			}
 		}
 
@@ -174,13 +231,44 @@ const splitBN = (number, dec, comma) => {
 	}
 };
 
+const getPrice2 = address => {
+		var price=-1;
+		axios.post(`https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2`,{
+						query: `{token(id: "${address}") { derivedETH } }`})
+		.then((res) => {
+		    price=parseFloat(res.data.data.token.derivedETH);
+//		    console.log(price);
+//		    return price;
+		})
+		.catch((error) => {
+		    console.error(error)
+		})
+		if (price==-1){
+		    return 'no coingecko price';
+		} else{
+		    return price;
+		}
+}
+
 const getPrice = async address => {
 	try {
 		const response = await axios.get(`https://api.coingecko.com/api/v3/simple/token_price/ethereum?contract_addresses=${address}&vs_currencies=USD`);
 		const price = await response.data[address].usd;
 		return price;
 	} catch {
-		return 'no coingecko price';
+		try{
+		const response = await axios.post(`https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2`,{
+						query: `{token(id: "${address}") { derivedETH } }`});
+//https://thegraph.com/hosted-service/subgraph/elrakabawi/pancakeswap?selected=playground BSC
+//		const price=parseFloat(await response.data.data.token.derivedETH);
+		const price=Number(parseFloat(await response.data.data.token.derivedETH)*ETHprice);
+//		const price=parseNumber(await response.data.data.token.derivedETH);
+
+		return price;
+		}
+		catch{
+		    return 'no coingecko price';
+		}
 	}
 };
 
@@ -195,4 +283,21 @@ const getValue = (amount, price) => {
 	return Number(value).toLocaleString();
 };
 
+getPrice('0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2').then(x=>{  //WETH
+    console.log(x);
+    ETHprice=x;
+})
+//console.log(ETHprice);
+//const testPrice=getPrice('0xbb824f2dfb75e15199077d106872c9aa47bd93b4');
+var TestPrice;
+(async () => {
+    TestPrice=await getPrice('0xbb824f2dfb75e15199077d106872c9aa47bd93b4');
+    console.log(TestPrice);
+//    console.log(await ETHprice*TestPrice);
+//   console.log(await getPrice('0xbb824f2dfb75e15199077d106872c9aa47bd93b4'))
+})()
+//console.log(TestPrice);
+
+//getPrice('0xbb824f2dfb75e15199077d106872c9aa47bd93b4').then(console.log());
+//console.log(testPrice);
 getPairs(i);

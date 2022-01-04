@@ -1,0 +1,6087 @@
+
+> uniswap-skim@1.0.0 skim
+> node ./scripts/skim.js
+
+3801.52
+9.305659879114485e-7
+{
+  "pairAddress": "0x2b79b3c3c7b35463a28a76e0d332aab3e20aa337",
+  "pairIndex": 53,
+  "token0": {
+    "address": "0x57ab1ec28d129707052df4df418d58a2d46d5f51",
+    "name": "Synth sUSD",
+    "decimals": "18",
+    "balance": "0.497589591526397624",
+    "reserve": "0.497589591526397624",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0x625ae63000f46200499120b906716420bd059240",
+    "name": "Aave Interest bearing SUSD",
+    "decimals": "18",
+    "balance": "0.558291904676681753",
+    "reserve": "0.503886664446125397",
+    "imbalance": {
+      "diff": "0.054405240230556350",
+      "usdPrice": 1,
+      "value": "$0.05 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x2e3bb99210ebaa7fae82c32b244e872610107088",
+  "pairIndex": 288,
+  "token0": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "1.620888881584823704",
+    "reserve": "1.620888881584823704",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xfc1e690f61efd961294b3e1ce3313fbd8aa4f85d",
+    "name": "Aave Interest bearing DAI",
+    "decimals": "18",
+    "balance": "6,651.856345964069142169",
+    "reserve": "6,637.740589206993400440",
+    "imbalance": {
+      "diff": "14.115756757075624000",
+      "usdPrice": 1,
+      "value": "$14.12 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0xb63429c911b05b995e498b2e9277ccd2aa722658",
+  "pairIndex": 493,
+  "token0": {
+    "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+    "name": "Dai Stablecoin",
+    "decimals": "18",
+    "balance": "38.821481054241919713",
+    "reserve": "38.821481054241919713",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xfc1e690f61efd961294b3e1ce3313fbd8aa4f85d",
+    "name": "Aave Interest bearing DAI",
+    "decimals": "18",
+    "balance": "39.433861892603207461",
+    "reserve": "38.888292669284472057",
+    "imbalance": {
+      "diff": "0.545569223318732800",
+      "usdPrice": 1,
+      "value": "$0.55 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0xe73080ee6fe70da38a2a2d06e9fa09eea4b6978d",
+  "pairIndex": 504,
+  "token0": {
+    "address": "0x625ae63000f46200499120b906716420bd059240",
+    "name": "Aave Interest bearing SUSD",
+    "decimals": "18",
+    "balance": "0.812062676652383947",
+    "reserve": "0.796417308628832152",
+    "imbalance": {
+      "diff": "0.015645368023551872",
+      "usdPrice": 1,
+      "value": "$0.02 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.000000000000010031",
+    "reserve": "0.000000000000010031",
+    "imbalance": false
+  }
+},
+error in pair: 0xf78e259738d5bda2937fb9134f8d29af5e7a8e61,
+
+            Error: Returned error: execution reverted [object Object]
+error in pair: 0x1adc7dac48a656552b094eb75d09fb29b5da9ade,
+
+            Error: Returned values aren't valid, did it run Out of Gas? You might also see this error if you are not using the correct ABI for the contract you are retrieving data from, requesting data from a block number that does not exist, or querying a node which is not fully synced. [object Object]
+{
+  "pairAddress": "0xf6887d8241b346139619ce439ee8da6dbef596d9",
+  "pairIndex": 1659,
+  "token0": {
+    "address": "0x59f96b8571e3b11f859a09eaf5a790a138fc64d0",
+    "name": "Uniswap V2",
+    "decimals": "18",
+    "balance": "0.000000000000000054",
+    "reserve": "0.000000000000000054",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xa7de087329bfcda5639247f96140f9dabe3deed1",
+    "name": "Statera",
+    "decimals": "18",
+    "balance": "0.990000000000020607",
+    "reserve": "0.000000000000020607",
+    "imbalance": {
+      "diff": "0.990000000000000000",
+      "usdPrice": 0.04308597,
+      "value": "$0.04 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x34861dddaf3a21f4b34786df8266c2ec3132f666",
+  "pairIndex": 1793,
+  "token0": {
+    "address": "0x6ee0f7bb50a54ab5253da0667b0dc2ee526c30a8",
+    "name": "Aave Interest bearing Binance USD",
+    "decimals": "18",
+    "balance": "1.074378381280995265",
+    "reserve": "1.000000000000000000",
+    "imbalance": {
+      "diff": "0.074378381280995330",
+      "usdPrice": 1.01,
+      "value": "$0.08 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xd45cb0646d0e50a42330bee5696264539e687b4e",
+    "name": "Aave AMM USD",
+    "decimals": "18",
+    "balance": "1.001802014492220000",
+    "reserve": "1.001802014492220000",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x24169be1076c9854aa55d767dce317cc039fe910",
+  "pairIndex": 1794,
+  "token0": {
+    "address": "0x4436e91ed4223c6b30ed23f96e9dfdd419e2e6cb",
+    "name": "Aave AMM USD",
+    "decimals": "18",
+    "balance": "0.999439520000000000",
+    "reserve": "0.999439520000000000",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0x6ee0f7bb50a54ab5253da0667b0dc2ee526c30a8",
+    "name": "Aave Interest bearing Binance USD",
+    "decimals": "18",
+    "balance": "1.066981992346766165",
+    "reserve": "1.000000000000000000",
+    "imbalance": {
+      "diff": "0.066981992346766210",
+      "usdPrice": 1.01,
+      "value": "$0.07 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x4f1bb78c2294f6b88a0e06ef1fe970117baadd9f",
+  "pairIndex": 1797,
+  "token0": {
+    "address": "0x6ee0f7bb50a54ab5253da0667b0dc2ee526c30a8",
+    "name": "Aave Interest bearing Binance USD",
+    "decimals": "18",
+    "balance": "1.066981638896949895",
+    "reserve": "1.000000000000001001",
+    "imbalance": {
+      "diff": "0.066981638896948860",
+      "usdPrice": 1.01,
+      "value": "$0.07 🦄"
+    }
+  },
+  "token1": {
+    "address": "0x944bb40496044caa796ef4e1b8fcc3346817c60c",
+    "name": "Aave AMM USD",
+    "decimals": "18",
+    "balance": "0.999000999001000000",
+    "reserve": "0.999000999001000000",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x2a398373a7877fc8a9482d5b72b646052b79be76",
+  "pairIndex": 1798,
+  "token0": {
+    "address": "0x13dfa8e094764e43f539351df393be6ba4a3012d",
+    "name": "Aave AMM USD",
+    "decimals": "18",
+    "balance": "1.984720992966657622",
+    "reserve": "1.984720992966657622",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0x6ee0f7bb50a54ab5253da0667b0dc2ee526c30a8",
+    "name": "Aave Interest bearing Binance USD",
+    "decimals": "18",
+    "balance": "2.148749652359869083",
+    "reserve": "2.014310557395825951",
+    "imbalance": {
+      "diff": "0.134439094964043260",
+      "usdPrice": 1.01,
+      "value": "$0.14 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0xe8ac6f3474121f8a84e9e3effc3598279aceb150",
+  "pairIndex": 1799,
+  "token0": {
+    "address": "0x13dfa8e094764e43f539351df393be6ba4a3012d",
+    "name": "Aave AMM USD",
+    "decimals": "18",
+    "balance": "1.015694240000000000",
+    "reserve": "1.015694240000000000",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xfc1e690f61efd961294b3e1ce3313fbd8aa4f85d",
+    "name": "Aave Interest bearing DAI",
+    "decimals": "18",
+    "balance": "1.103417646951985474",
+    "reserve": "1.000000000000000000",
+    "imbalance": {
+      "diff": "0.103417646951985540",
+      "usdPrice": 1,
+      "value": "$0.1 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x4df86aff1397c609a0217757d78dfd3a07cc9852",
+  "pairIndex": 1800,
+  "token0": {
+    "address": "0x6d52d340a8537aa0de865a0d87f380d6d512d333",
+    "name": "Aave AMM USD",
+    "decimals": "18",
+    "balance": "1.015694240000000000",
+    "reserve": "1.015694240000000000",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xfc1e690f61efd961294b3e1ce3313fbd8aa4f85d",
+    "name": "Aave Interest bearing DAI",
+    "decimals": "18",
+    "balance": "1.103394736869859398",
+    "reserve": "1.000000000000000000",
+    "imbalance": {
+      "diff": "0.103394736869859460",
+      "usdPrice": 1,
+      "value": "$0.1 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x53999d9d7fef8b2911317e4f3a97316ffcc21ac7",
+  "pairIndex": 1802,
+  "token0": {
+    "address": "0x6d52d340a8537aa0de865a0d87f380d6d512d333",
+    "name": "Aave AMM USD",
+    "decimals": "18",
+    "balance": "1.998879040000000000",
+    "reserve": "1.998879040000000000",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0x6ee0f7bb50a54ab5253da0667b0dc2ee526c30a8",
+    "name": "Aave Interest bearing Binance USD",
+    "decimals": "18",
+    "balance": "2.133964091296954029",
+    "reserve": "2.000000075857311494",
+    "imbalance": {
+      "diff": "0.133964015439642620",
+      "usdPrice": 1.01,
+      "value": "$0.14 🦄"
+    }
+  }
+},
+error in pair: 0x8ab4decd27334da8de04ad1038c4a5fdcedc5b80,
+
+            Error: Returned values aren't valid, did it run Out of Gas? You might also see this error if you are not using the correct ABI for the contract you are retrieving data from, requesting data from a block number that does not exist, or querying a node which is not fully synced. [object Object]
+error in pair: 0x659cdebf48eba64ab0e7ed049959ad516bdd2158,
+
+            Error: Returned values aren't valid, did it run Out of Gas? You might also see this error if you are not using the correct ABI for the contract you are retrieving data from, requesting data from a block number that does not exist, or querying a node which is not fully synced. [object Object]
+{
+  "pairAddress": "0x3343d8fd46ba0469db160a82386a826214cefcb6",
+  "pairIndex": 5458,
+  "token0": {
+    "address": "0x3a3a65aab0dd2a17e3f1947ba16138cd37d08c04",
+    "name": "Aave Interest bearing ETH",
+    "decimals": "18",
+    "balance": "9.797705386312208652",
+    "reserve": "9.797696639630334129",
+    "imbalance": {
+      "diff": "0.000008746681874432",
+      "usdPrice": 3786.27,
+      "value": "$0.03 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "9.691840266197617799",
+    "reserve": "9.691840266197617799",
+    "imbalance": false
+  }
+},
+error in pair: 0x57fc8adbf7b583b929c51df0da16008651c1de78,
+
+            Error: Returned error: execution reverted [object Object]
+error in pair: 0xec565af969ac889387a73844c2ab07ad17e2793a,
+
+            Error: Returned error: execution reverted [object Object]
+{
+  "pairAddress": "0x5925d86da67432315225302d8a2f426973f4c87c",
+  "pairIndex": 8310,
+  "token0": {
+    "address": "0x889efb523cc39590b8483eb9491890ac71407f64",
+    "name": "Moon Juice",
+    "decimals": "18",
+    "balance": "100.249146904043468229",
+    "reserve": "100.249146904043468229",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xfc1e690f61efd961294b3e1ce3313fbd8aa4f85d",
+    "name": "Aave Interest bearing DAI",
+    "decimals": "18",
+    "balance": "5.286704548607957436",
+    "reserve": "5.153631334672498469",
+    "imbalance": {
+      "diff": "0.133073213935458300",
+      "usdPrice": 0.98916,
+      "value": "$0.13 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x76c96da7b1efe9dfa243b84d50b6446066a98751",
+  "pairIndex": 11938,
+  "token0": {
+    "address": "0x2910b9dea758aac0e449af0fb6c4038b8ed86b50",
+    "name": "gotEM",
+    "decimals": "18",
+    "balance": "2,000.000000000000000001",
+    "reserve": "2,000.000000000000000001",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.000336523794354942",
+    "reserve": "0.000000000000000001",
+    "imbalance": {
+      "diff": "0.000336523794354941",
+      "usdPrice": 3718.6,
+      "value": "$1.25 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x2e0721e6c951710725997928dcaaa05daafa031b",
+  "pairIndex": 12326,
+  "token0": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "16.259806475675935459",
+    "reserve": "16.249806475675935459",
+    "imbalance": {
+      "diff": "0.010000000000000000",
+      "usdPrice": 3717.45,
+      "value": "$37.17 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xe0e4839e0c7b2773c58764f9ec3b9622d01a0428",
+    "name": "EnCore",
+    "decimals": "18",
+    "balance": "9,856.536716288149361827",
+    "reserve": "9,856.536716288149361827",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x927fa53aee5dd59b0dfd39315af6f44a7547a0b3",
+  "pairIndex": 12480,
+  "token0": {
+    "address": "0x674c6ad92fd080e4004b2312b45f796a192d27a0",
+    "name": "Neutrino USD",
+    "decimals": "18",
+    "balance": "409.958474697850170291",
+    "reserve": "405.829397797257147607",
+    "imbalance": {
+      "diff": "4.129076900593008600",
+      "usdPrice": 0.984408,
+      "value": "$4.06 🦄"
+    }
+  },
+  "token1": {
+    "address": "0x9d79d5b61de59d882ce90125b18f74af650acb93",
+    "name": "Neutrino System Base Token",
+    "decimals": "6",
+    "balance": "45.949575",
+    "reserve": "45.949575",
+    "imbalance": false
+  }
+},
+error in pair: 0x9516e7704ab137bea078b81254206d8337081d8a,
+
+            Error: Returned error: execution reverted [object Object]
+error in pair: 0xde7ad7f64b8d7d369145fa0e9dc76edcfcd89d68,
+
+            Error: Returned values aren't valid, did it run Out of Gas? You might also see this error if you are not using the correct ABI for the contract you are retrieving data from, requesting data from a block number that does not exist, or querying a node which is not fully synced. [object Object]
+{
+  "pairAddress": "0x72285ecdd72c24caa8b7cb43f06295c90ef311ae",
+  "pairIndex": 17534,
+  "token0": {
+    "address": "0x674c6ad92fd080e4004b2312b45f796a192d27a0",
+    "name": "Neutrino USD",
+    "decimals": "18",
+    "balance": "203.323668871451288926",
+    "reserve": "194.398491299148020744",
+    "imbalance": {
+      "diff": "8.925177572303274000",
+      "usdPrice": 0.975885,
+      "value": "$8.71 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xe1f8cd01ab04b51d02c6fb2bca61b03fb5e33b99",
+    "name": "HULK.finance",
+    "decimals": "18",
+    "balance": "2,718.438581283526237091",
+    "reserve": "2,718.438581283526237091",
+    "imbalance": false
+  }
+},
+error in pair: 0xd6e4c383af042480d88296f4344492b368e49893,
+
+            Error: Returned values aren't valid, did it run Out of Gas? You might also see this error if you are not using the correct ABI for the contract you are retrieving data from, requesting data from a block number that does not exist, or querying a node which is not fully synced. [object Object]
+error in pair: 0xbb41d5f95b45511ed23924144b7348a7bd50c7ea,
+
+            Error: Returned values aren't valid, did it run Out of Gas? You might also see this error if you are not using the correct ABI for the contract you are retrieving data from, requesting data from a block number that does not exist, or querying a node which is not fully synced. [object Object]
+error in pair: 0x13fa9db82c07eb03dad870f220f23c923cec89db,
+
+            Error: Returned values aren't valid, did it run Out of Gas? You might also see this error if you are not using the correct ABI for the contract you are retrieving data from, requesting data from a block number that does not exist, or querying a node which is not fully synced. [object Object]
+error in pair: 0x18c71cfab8319cb19137b19c2307be0500e7df21,
+
+            Error: Returned values aren't valid, did it run Out of Gas? You might also see this error if you are not using the correct ABI for the contract you are retrieving data from, requesting data from a block number that does not exist, or querying a node which is not fully synced. [object Object]
+error in pair: 0x2c57245b40b7fb71d11af79e34a899ab30055dd7,
+
+            Error: Returned values aren't valid, did it run Out of Gas? You might also see this error if you are not using the correct ABI for the contract you are retrieving data from, requesting data from a block number that does not exist, or querying a node which is not fully synced. [object Object]
+{
+  "pairAddress": "0x5abc567a74983dff7f0185731e5043f77cdeebd4",
+  "pairIndex": 19496,
+  "token0": {
+    "address": "0x30bcd71b8d21fe830e493b30e90befba29de9114",
+    "name": "Penguin Party Fish",
+    "decimals": "18",
+    "balance": "1,007.259928837292277320",
+    "reserve": "1,007.259928837292277320",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xfc1e690f61efd961294b3e1ce3313fbd8aa4f85d",
+    "name": "Aave Interest bearing DAI",
+    "decimals": "18",
+    "balance": "3,329.824077776718839239",
+    "reserve": "3,322.653697187522782377",
+    "imbalance": {
+      "diff": "7.170380589195854000",
+      "usdPrice": 0.996837,
+      "value": "$7.15 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x3d3b87eba8298c9e32db2976df02884b20684a0a",
+  "pairIndex": 20042,
+  "token0": {
+    "address": "0x30bcd71b8d21fe830e493b30e90befba29de9114",
+    "name": "Penguin Party Fish",
+    "decimals": "18",
+    "balance": "395.918043256578433348",
+    "reserve": "395.918043256578433348",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0x3a3a65aab0dd2a17e3f1947ba16138cd37d08c04",
+    "name": "Aave Interest bearing ETH",
+    "decimals": "18",
+    "balance": "0.334798061726713862",
+    "reserve": "0.334793532654439200",
+    "imbalance": {
+      "diff": "0.000004529072274688",
+      "usdPrice": 3655.85,
+      "value": "$0.02 🦄"
+    }
+  }
+},
+error in pair: 0x43b912966b0749c68537ac96a490d0eef0b472d4,
+
+            Error: Returned values aren't valid, did it run Out of Gas? You might also see this error if you are not using the correct ABI for the contract you are retrieving data from, requesting data from a block number that does not exist, or querying a node which is not fully synced. [object Object]
+error in pair: 0x9969183d576220b31369ab878260e5bb9bc34743,
+
+            Error: Returned values aren't valid, did it run Out of Gas? You might also see this error if you are not using the correct ABI for the contract you are retrieving data from, requesting data from a block number that does not exist, or querying a node which is not fully synced. [object Object]
+error in pair: 0x808886ea04257c0b132c9dbebb6fa0c49d11339e,
+
+            Error: Returned values aren't valid, did it run Out of Gas? You might also see this error if you are not using the correct ABI for the contract you are retrieving data from, requesting data from a block number that does not exist, or querying a node which is not fully synced. [object Object]
+error in pair: 0xaead6aae17dfd944513dd60a9809e3941058451e,
+
+            Error: Returned values aren't valid, did it run Out of Gas? You might also see this error if you are not using the correct ABI for the contract you are retrieving data from, requesting data from a block number that does not exist, or querying a node which is not fully synced. [object Object]
+error in pair: 0x260787332f2fe51356b7f4172d4097e040699696,
+
+            Error: Returned values aren't valid, did it run Out of Gas? You might also see this error if you are not using the correct ABI for the contract you are retrieving data from, requesting data from a block number that does not exist, or querying a node which is not fully synced. [object Object]
+{
+  "pairAddress": "0x2b7a1aa999a086338b10513a18163ee1ba5f7e5d",
+  "pairIndex": 23879,
+  "token0": {
+    "address": "0x26780078e07cc33f0323df626f42fa92971561d4",
+    "name": "CommonWealth Credit V1 - DAI",
+    "decimals": "18",
+    "balance": "687.662729311943009845",
+    "reserve": "687.662729311943009845",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xfc1e690f61efd961294b3e1ce3313fbd8aa4f85d",
+    "name": "Aave Interest bearing DAI",
+    "decimals": "18",
+    "balance": "741.831546301448143538",
+    "reserve": "724.337972940140582659",
+    "imbalance": {
+      "diff": "17.493573361307615000",
+      "usdPrice": 0.996926,
+      "value": "$17.44 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x6bf8bcd640f66e2e47d59c6821121b8e0d3bdaac",
+  "pairIndex": 24349,
+  "token0": {
+    "address": "0x8d5db0c1f0681071cb38a382ae6704588d9da587",
+    "name": "prophet.finance",
+    "decimals": "9",
+    "balance": "17.579564760",
+    "reserve": "14.560769909",
+    "imbalance": {
+      "diff": "3.018794851",
+      "usdPrice": 0.142357,
+      "value": "$0.43 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xe95e4440493e5b96e79d63e8dc43ab676dd44e4c",
+    "name": "AntiSeal",
+    "decimals": "0",
+    "balance": "669,219.0",
+    "reserve": "669,219.0",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x3f1e819d072976c13e1c653eaccfd1a29085f554",
+  "pairIndex": 24640,
+  "token0": {
+    "address": "0x9ba00d6856a4edf4665bca2c2309936572473b7e",
+    "name": "Aave Interest bearing USDC",
+    "decimals": "6",
+    "balance": "57.790987",
+    "reserve": "54.051373",
+    "imbalance": {
+      "diff": "3.739614",
+      "usdPrice": 0.999303,
+      "value": "$3.74 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xfc1e690f61efd961294b3e1ce3313fbd8aa4f85d",
+    "name": "Aave Interest bearing DAI",
+    "decimals": "18",
+    "balance": "58.472945431028748814",
+    "reserve": "54.040567606194758651",
+    "imbalance": {
+      "diff": "4.432377824833995000",
+      "usdPrice": 0.996926,
+      "value": "$4.42 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x196a0158a54382efb0702b86c7d5545d7001df0a",
+  "pairIndex": 24647,
+  "token0": {
+    "address": "0x30bcd71b8d21fe830e493b30e90befba29de9114",
+    "name": "Penguin Party Fish",
+    "decimals": "18",
+    "balance": "54.544127520944296712",
+    "reserve": "54.544127520944296712",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0x9ba00d6856a4edf4665bca2c2309936572473b7e",
+    "name": "Aave Interest bearing USDC",
+    "decimals": "6",
+    "balance": "434.113204",
+    "reserve": "426.365482",
+    "imbalance": {
+      "diff": "7.747722",
+      "usdPrice": 0.999303,
+      "value": "$7.74 🦄"
+    }
+  }
+},
+error in pair: 0x1b00c95e101fecdbcbe76f38e601f430c6023f3b,
+
+            Error: Returned values aren't valid, did it run Out of Gas? You might also see this error if you are not using the correct ABI for the contract you are retrieving data from, requesting data from a block number that does not exist, or querying a node which is not fully synced. [object Object]
+{
+  "pairAddress": "0x901380ab7b9e8a0ecfb14bd5219e4a7d762c656d",
+  "pairIndex": 25257,
+  "token0": {
+    "address": "0xa1afffe3f4d611d252010e3eaf6f4d77088b0cd7",
+    "name": "reflect.finance",
+    "decimals": "9",
+    "balance": "170,714.097758013",
+    "reserve": "170,664.804120809",
+    "imbalance": {
+      "diff": "49.293637204",
+      "usdPrice": 0.04278188,
+      "value": "$2.11 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xdcb01cc464238396e213a6fdd933e36796eaff9f",
+    "name": "Yield",
+    "decimals": "18",
+    "balance": "2,029.915093388724563732",
+    "reserve": "2,029.915093388724563732",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x337c74a59823bd2dfa79b5327eff9171f7711887",
+  "pairIndex": 25388,
+  "token0": {
+    "address": "0x79579a3c2a3bd4c4881017ae53af0f73c31f9af5",
+    "name": "reflect3.finance",
+    "decimals": "9",
+    "balance": "110,455.729999864",
+    "reserve": "109,939.062074307",
+    "imbalance": {
+      "diff": "516.667925557",
+      "usdPrice": 0.002104449270139274,
+      "value": "$1.09 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.060860176703547964",
+    "reserve": "0.060860176703547964",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xbfdcfda04b858d052b851f9648172f38fd754961",
+  "pairIndex": 25399,
+  "token0": {
+    "address": "0x42919a4b5211ade6edf206c9b654b0b310e411f9",
+    "name": "reflect88.finance",
+    "decimals": "9",
+    "balance": "45,551.490715792",
+    "reserve": "45,138.209624253",
+    "imbalance": {
+      "diff": "413.281091539",
+      "usdPrice": 0.0009969220078702226,
+      "value": "$0.41 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.011837179488803769",
+    "reserve": "0.011837179488803769",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x6f956a0554edc07c293bed8979663e2945aea3d2",
+  "pairIndex": 25425,
+  "token0": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.026779792895752820",
+    "reserve": "0.026779792895752820",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xe9d7d2e930df7a7f02419b01d9355e5e66d6a216",
+    "name": "R33P",
+    "decimals": "8",
+    "balance": "326.42642225",
+    "reserve": "324.25198159",
+    "imbalance": {
+      "diff": "2.17444066",
+      "usdPrice": 0.31396544684124117,
+      "value": "$0.68 🦄"
+    }
+  }
+},
+error in pair: 0x6a5b8ef3496971bee019e857ff9da40059192a1f,
+
+            Error: Returned values aren't valid, did it run Out of Gas? You might also see this error if you are not using the correct ABI for the contract you are retrieving data from, requesting data from a block number that does not exist, or querying a node which is not fully synced. [object Object]
+{
+  "pairAddress": "0xeb5a47b640f6748c120e87ca3d6c411ecd5a81ff",
+  "pairIndex": 25673,
+  "token0": {
+    "address": "0x70a6d0d1561ba98711e935a76b1c167c612978a2",
+    "name": "dragonflyprotocol.com",
+    "decimals": "9",
+    "balance": "251.526433062",
+    "reserve": "247.686785175",
+    "imbalance": {
+      "diff": "3.839647887",
+      "usdPrice": 0.069823,
+      "value": "$0.27 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xa1afffe3f4d611d252010e3eaf6f4d77088b0cd7",
+    "name": "reflect.finance",
+    "decimals": "9",
+    "balance": "163.787865385",
+    "reserve": "159.573295597",
+    "imbalance": {
+      "diff": "4.214569788",
+      "usdPrice": 0.04285948,
+      "value": "$0.18 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x3573e327c8f63ec442ed1a226d98e0f097d42848",
+  "pairIndex": 25694,
+  "token0": {
+    "address": "0x121df242fe56427f3f7a1622b883368c0b030ca7",
+    "name": "reflect.all",
+    "decimals": "9",
+    "balance": "45,536.471163852",
+    "reserve": "45,534.630034690",
+    "imbalance": {
+      "diff": "1.841129162",
+      "usdPrice": 0.008177240811405237,
+      "value": "$0.02 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.097947040934127869",
+    "reserve": "0.097947040934127869",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x2a12aa79c5f95ed9fd29faf4273ec7b3f8ca7258",
+  "pairIndex": 25771,
+  "token0": {
+    "address": "0x16b1eb8b8e9058800bf0ba3684f805a6711a1d2c",
+    "name": "reflector.finance",
+    "decimals": "9",
+    "balance": "927.873509395",
+    "reserve": "866.471683397",
+    "imbalance": {
+      "diff": "61.401825998",
+      "usdPrice": 0.01247076,
+      "value": "$0.77 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.002260251454914110",
+    "reserve": "0.002260251454914110",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x1a20788d12fa711da6d3847016e3ab4f0acba36c",
+  "pairIndex": 25791,
+  "token0": {
+    "address": "0x3aa5f749d4a6bcf67dac1091ceb69d1f5d86fa53",
+    "name": "Deflect Protocol",
+    "decimals": "9",
+    "balance": "240.361898162",
+    "reserve": "240.361898162",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xa1afffe3f4d611d252010e3eaf6f4d77088b0cd7",
+    "name": "reflect.finance",
+    "decimals": "9",
+    "balance": "6,510.224583857",
+    "reserve": "6,444.631710375",
+    "imbalance": {
+      "diff": "65.592873482",
+      "usdPrice": 0.04285948,
+      "value": "$2.81 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0xba09b8b9f0087753cbe58dcb3c8494daa19fee1e",
+  "pairIndex": 25864,
+  "token0": {
+    "address": "0x8c168ef06b8baf8ad2236eef2286f7870ad50f9b",
+    "name": "Santa Token",
+    "decimals": "18",
+    "balance": "638.117216219083524836",
+    "reserve": "638.117216219083524836",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xfc1e690f61efd961294b3e1ce3313fbd8aa4f85d",
+    "name": "Aave Interest bearing DAI",
+    "decimals": "18",
+    "balance": "158.942154038406074818",
+    "reserve": "157.461923186789172217",
+    "imbalance": {
+      "diff": "1.480230851616899000",
+      "usdPrice": 1.01,
+      "value": "$1.5 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x9834eaf627ad771a3e6d9815408b4aaeda000730",
+  "pairIndex": 25917,
+  "token0": {
+    "address": "0x16b1eb8b8e9058800bf0ba3684f805a6711a1d2c",
+    "name": "reflector.finance",
+    "decimals": "9",
+    "balance": "11,908.138940122",
+    "reserve": "10,068.483338906",
+    "imbalance": {
+      "diff": "1,839.655601216",
+      "usdPrice": 0.01247076,
+      "value": "$22.94 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xa1afffe3f4d611d252010e3eaf6f4d77088b0cd7",
+    "name": "reflect.finance",
+    "decimals": "9",
+    "balance": "750.593265483",
+    "reserve": "737.374135058",
+    "imbalance": {
+      "diff": "13.219130425",
+      "usdPrice": 0.04285948,
+      "value": "$0.57 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x0fa54e60fbd5de7ba81ea063df084506bf7ab577",
+  "pairIndex": 26138,
+  "token0": {
+    "address": "0x4e085036a1b732cbe4ffb1c12ddfdd87e7c3664d",
+    "name": "PRDZ Dex",
+    "decimals": "18",
+    "balance": "5.787321165706748948",
+    "reserve": "5.787321165706748948",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xa1afffe3f4d611d252010e3eaf6f4d77088b0cd7",
+    "name": "reflect.finance",
+    "decimals": "9",
+    "balance": "201.194143024",
+    "reserve": "196.017039367",
+    "imbalance": {
+      "diff": "5.177103657",
+      "usdPrice": 0.04091434,
+      "value": "$0.21 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x7edfd3c9c35196144c8db7cf27e2f1618f5183c2",
+  "pairIndex": 26181,
+  "token0": {
+    "address": "0x556c8cbb944cbe1fac99ea47f72c757f303d595c",
+    "name": "Trianity",
+    "decimals": "9",
+    "balance": "2,838.347914315",
+    "reserve": "2,822.564615008",
+    "imbalance": {
+      "diff": "15.783299307",
+      "usdPrice": 0.015054218731001935,
+      "value": "$0.24 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.011177504023842226",
+    "reserve": "0.011177504023842226",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x264c20be14385db5804886a66293f44bd547762b",
+  "pairIndex": 26215,
+  "token0": {
+    "address": "0x92d3b40874f7e5dc5b2814ea2bb0f8051fa4a244",
+    "name": "rfDefi",
+    "decimals": "9",
+    "balance": "3,337.835529947",
+    "reserve": "3,235.744897497",
+    "imbalance": {
+      "diff": "102.090632450",
+      "usdPrice": 0.0101334313818418,
+      "value": "$1.03 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.008625286434881462",
+    "reserve": "0.008625286434881462",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xbcd2d4f63beb99ae816d67f7cba89819b09715fe",
+  "pairIndex": 26218,
+  "token0": {
+    "address": "0x446ae71d2880ac9be107ad2f7f71b455bc36bfc5",
+    "name": "The Cannabis Community",
+    "decimals": "18",
+    "balance": "372.342535193794173988",
+    "reserve": "372.342535193794173988",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xa1afffe3f4d611d252010e3eaf6f4d77088b0cd7",
+    "name": "reflect.finance",
+    "decimals": "9",
+    "balance": "1,099.563271713",
+    "reserve": "1,088.585172282",
+    "imbalance": {
+      "diff": "10.978099431",
+      "usdPrice": 0.04091434,
+      "value": "$0.45 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0xd031c219590f84311a6305364a2f994edc5c68d9",
+  "pairIndex": 26228,
+  "token0": {
+    "address": "0x6f6d6a9fe91a8c43a64507b4b4b269d63fbf3dd6",
+    "name": "REFLEX",
+    "decimals": "9",
+    "balance": "39,337.475701730",
+    "reserve": "39,034.959601718",
+    "imbalance": {
+      "diff": "302.516100012",
+      "usdPrice": 0.0006015071624668857,
+      "value": "$0.18 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.006176426215576640",
+    "reserve": "0.006176426215576640",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x9ec195c9c850fb6e7f4c1f840a88986ae03fea66",
+  "pairIndex": 26232,
+  "token0": {
+    "address": "0x8d5db0c1f0681071cb38a382ae6704588d9da587",
+    "name": "prophet.finance",
+    "decimals": "9",
+    "balance": "27,047.533960878",
+    "reserve": "27,042.178665814",
+    "imbalance": {
+      "diff": "5.355295064",
+      "usdPrice": 0.142357,
+      "value": "$0.76 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xcb5f72d37685c3d5ad0bb5f982443bc8fcdf570e",
+    "name": "RootKit",
+    "decimals": "18",
+    "balance": "0.689364167074404973",
+    "reserve": "0.689364167074404973",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x2b0d300b20567344baa0c8c1da179dabfca684cf",
+  "pairIndex": 26294,
+  "token0": {
+    "address": "0x07a1f40a76a5e7e42def56c23deb6b422be2f291",
+    "name": "Bas3r.finance",
+    "decimals": "9",
+    "balance": "7,605.445032171",
+    "reserve": "7,601.197361088",
+    "imbalance": {
+      "diff": "4.247671083",
+      "usdPrice": 1.0214730604411393,
+      "value": "$4.34 🦄"
+    }
+  },
+  "token1": {
+    "address": "0x097adfc3157f3065ff09eee79e0d6292a2ec7d25",
+    "name": "Bas4r.finance",
+    "decimals": "9",
+    "balance": "10,504.343185540",
+    "reserve": "10,504.308032764",
+    "imbalance": {
+      "diff": "0.035152776",
+      "usdPrice": 0.7684766236060944,
+      "value": "$0.03 🦄"
+    }
+  }
+},
+error in pair: 0xe83a969b55cba46bc84a69df133fc539b7278001,
+
+            Error: Returned values aren't valid, did it run Out of Gas? You might also see this error if you are not using the correct ABI for the contract you are retrieving data from, requesting data from a block number that does not exist, or querying a node which is not fully synced. [object Object]
+{
+  "pairAddress": "0xb399f3e7de71e97ed6784300423fab9b5834c5ff",
+  "pairIndex": 26581,
+  "token0": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "3.173723429266337964",
+    "reserve": "3.173723429266337964",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xef7b1745c55d66a3941ad2a45329c5b2c0486e40",
+    "name": "iProtocol",
+    "decimals": "18",
+    "balance": "5,435,367.206080246591264612",
+    "reserve": "5,432,950.959414804553347138",
+    "imbalance": {
+      "diff": "2,416.246665441454300000",
+      "usdPrice": 0.002220703477898522,
+      "value": "$5.37 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x6224a5891fcb56557af1340a0c4dd46a8185429e",
+  "pairIndex": 26649,
+  "token0": {
+    "address": "0xa83ff602675beca077093049ddd3b7aa5e42da2a",
+    "name": "Corlibri",
+    "decimals": "18",
+    "balance": "3.532928083913295178",
+    "reserve": "3.532928083913295178",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xea81b3403762bc4b6860b4f262e9fb1c51317542",
+    "name": "Triiad",
+    "decimals": "9",
+    "balance": "5,131.500366012",
+    "reserve": "5,088.027654096",
+    "imbalance": {
+      "diff": "43.472711916",
+      "usdPrice": 0.006458397374534013,
+      "value": "$0.28 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0xbe844aa8ab22a0482efb75a6367da47891aa2ac1",
+  "pairIndex": 26683,
+  "token0": {
+    "address": "0xa1afffe3f4d611d252010e3eaf6f4d77088b0cd7",
+    "name": "reflect.finance",
+    "decimals": "9",
+    "balance": "227.055617655",
+    "reserve": "223.083221809",
+    "imbalance": {
+      "diff": "3.972395846",
+      "usdPrice": 0.04091053,
+      "value": "$0.16 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xf57d7b8fe66cd64b15396faaf332a369929a3ba5",
+    "name": "r2f.finance",
+    "decimals": "9",
+    "balance": "13,190.676863010",
+    "reserve": "13,189.877301593",
+    "imbalance": {
+      "diff": "0.799561417",
+      "usdPrice": 0.004017009343681978,
+      "value": "$0 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x6efd8628afaac5799a04308817f787b17359b56d",
+  "pairIndex": 26702,
+  "token0": {
+    "address": "0x8d587a2386b9ea792a4c6e1744199349db3bc269",
+    "name": "Union Capital V2",
+    "decimals": "18",
+    "balance": "1,330.275670987530735097",
+    "reserve": "1,330.275670987530735097",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xa1afffe3f4d611d252010e3eaf6f4d77088b0cd7",
+    "name": "reflect.finance",
+    "decimals": "9",
+    "balance": "1,458.521906719",
+    "reserve": "1,450.488642322",
+    "imbalance": {
+      "diff": "8.033264397",
+      "usdPrice": 0.04087234,
+      "value": "$0.33 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x6267cced36f61e3913f369b9672e655683b1efc2",
+  "pairIndex": 26766,
+  "token0": {
+    "address": "0x693eea0cf4671748211fe97d0de6a33076a89169",
+    "name": "YugiToken",
+    "decimals": "18",
+    "balance": "2.846247034409710536",
+    "reserve": "2.846247034409710536",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xa1afffe3f4d611d252010e3eaf6f4d77088b0cd7",
+    "name": "reflect.finance",
+    "decimals": "9",
+    "balance": "395.938890820",
+    "reserve": "389.750832211",
+    "imbalance": {
+      "diff": "6.188058609",
+      "usdPrice": 0.04087234,
+      "value": "$0.25 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x9a88dde9e60686190a01734d1aa5d5fd6d479d15",
+  "pairIndex": 26861,
+  "token0": {
+    "address": "0xa1afffe3f4d611d252010e3eaf6f4d77088b0cd7",
+    "name": "reflect.finance",
+    "decimals": "9",
+    "balance": "6,733.000264301",
+    "reserve": "6,704.925342532",
+    "imbalance": {
+      "diff": "28.074921769",
+      "usdPrice": 0.04087234,
+      "value": "$1.15 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xd1afbccc9a2c2187ea544363b986ea0ab6ef08b5",
+    "name": "Ethereum Yield",
+    "decimals": "18",
+    "balance": "86.304036240963196959",
+    "reserve": "86.304036240963196959",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x59c1614bd98b6ee1392545f2aa118e1646ede8a3",
+  "pairIndex": 26932,
+  "token0": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.000000000000000047",
+    "reserve": "0.000000000000000047",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xde4968e253f16324374ddeee0bbfa60148253422",
+    "name": "Zera.Finance",
+    "decimals": "18",
+    "balance": "4.380000000000021329",
+    "reserve": "0.000000000000021329",
+    "imbalance": {
+      "diff": "4.380000000000000000",
+      "usdPrice": 8.376925312954192,
+      "value": "$36.69 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x7b243c1df7158adeab0970b25bed5f1f5c136fe2",
+  "pairIndex": 26968,
+  "token0": {
+    "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "name": "USD Coin",
+    "decimals": "6",
+    "balance": "6.354943",
+    "reserve": "6.354943",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xa5a2af22eac6f050227d844b108c2b2a011fd329",
+    "name": "Tunnel",
+    "decimals": "9",
+    "balance": "1,004.964489228",
+    "reserve": "947.451685410",
+    "imbalance": {
+      "diff": "57.512803818",
+      "usdPrice": 0.00031339,
+      "value": "$0.02 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0xd0eaa27fd9e47c52096b2e0924397b3acd585ca6",
+  "pairIndex": 27146,
+  "token0": {
+    "address": "0x5c8f5be067468a6c5ee87228eb8c9e7273438668",
+    "name": "Valhalla_Finance_vMOON",
+    "decimals": "18",
+    "balance": "0.000000000000000000",
+    "reserve": "0.000000000000000000",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.005000000000000000",
+    "reserve": "0.000000000000000000",
+    "imbalance": {
+      "diff": "0.005000000000000000",
+      "usdPrice": 3696.01,
+      "value": "$18.48 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x8214018542bc5c582dcaa1c9118fcf00d7040f38",
+  "pairIndex": 27200,
+  "token0": {
+    "address": "0x7e32c8727cc19dd59a7a4d01b95ae1cbfc8f4c77",
+    "name": "Aqua Token",
+    "decimals": "9",
+    "balance": "12,872.919686883",
+    "reserve": "12,872.909993875",
+    "imbalance": {
+      "diff": "0.009693008",
+      "usdPrice": 19.3,
+      "value": "$0.19 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "65.194397981509835151",
+    "reserve": "65.194397981509835151",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x369885e42b151dfdc9c2ba1185dc1358ccdb1339",
+  "pairIndex": 27201,
+  "token0": {
+    "address": "0x3936ad01cf109a36489d93cabda11cf062fd3d48",
+    "name": "Coil",
+    "decimals": "9",
+    "balance": "20,977.876382806",
+    "reserve": "20,977.876382806",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0x7e32c8727cc19dd59a7a4d01b95ae1cbfc8f4c77",
+    "name": "Aqua Token",
+    "decimals": "9",
+    "balance": "1,065.628813636",
+    "reserve": "1,065.592560416",
+    "imbalance": {
+      "diff": "0.036253220",
+      "usdPrice": 19.3,
+      "value": "$0.7 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x7d641f35ee38fd675af3ff72eef9ae122b140155",
+  "pairIndex": 27288,
+  "token0": {
+    "address": "0x0add679a421f63455372b57530e614b6cd77d2fe",
+    "name": "Unikey.finance",
+    "decimals": "9",
+    "balance": "877.514522015",
+    "reserve": "870.031796298",
+    "imbalance": {
+      "diff": "7.482725717",
+      "usdPrice": 0.047026828719015416,
+      "value": "$0.35 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.010762757072066793",
+    "reserve": "0.010762757072066793",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xfdce1a334e5e33167709c5d9c60798a5b7884576",
+  "pairIndex": 27400,
+  "token0": {
+    "address": "0x67c597624b17b16fb77959217360b7cd18284253",
+    "name": "Benchmark",
+    "decimals": "9",
+    "balance": "0.715812177",
+    "reserve": "5.627225499",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xd46ba6d942050d489dbd938a2c909a5d5039a161",
+    "name": "Ampleforth",
+    "decimals": "9",
+    "balance": "8.073351021",
+    "reserve": "7.273267055",
+    "imbalance": {
+      "diff": "0.800083966",
+      "usdPrice": 0.901302,
+      "value": "$0.72 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x084f499cbec4356cfa4dc9c5335d6279fe03a7c0",
+  "pairIndex": 27434,
+  "token0": {
+    "address": "0xcaeaf8381d4b20b43afa42061d6f80319a8881f6",
+    "name": "R34P",
+    "decimals": "8",
+    "balance": "3.46010632",
+    "reserve": "3.45861574",
+    "imbalance": {
+      "diff": "0.00149058",
+      "usdPrice": 45.36,
+      "value": "$0.07 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xde4def877a322c60dd34db74867354f22e78b5da",
+    "name": "Gr1m",
+    "decimals": "18",
+    "balance": "7,941.877267087051630393",
+    "reserve": "7,941.877267087051630393",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x132c29d01a96376d85314028543f33745255f99f",
+  "pairIndex": 27454,
+  "token0": {
+    "address": "0x330046ce4ca9d4556f814b466cd72d1065f22f4c",
+    "name": "TheArmada.eth.link",
+    "decimals": "18",
+    "balance": "774.106392832134349244",
+    "reserve": "766.973798897987727065",
+    "imbalance": {
+      "diff": "7.132593934146601000",
+      "usdPrice": 1.1432826764729653,
+      "value": "$8.15 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xb3419f1ef282253296e92df6f85e113360a391f2",
+    "name": "TheBorg.eth.link",
+    "decimals": "18",
+    "balance": "1,909.542100825579420645",
+    "reserve": "1,901.030783378960467638",
+    "imbalance": {
+      "diff": "8.511317446619038000",
+      "usdPrice": 0.2614435842870128,
+      "value": "$2.23 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0xc42d0f20922d00db08ae1136b2efb6addf977d04",
+  "pairIndex": 27530,
+  "token0": {
+    "address": "0x953f16c7f6575f180d5077439af942612c449a5d",
+    "name": "ReadCommentInContractCode",
+    "decimals": "9",
+    "balance": "3,962.782291321",
+    "reserve": "3,958.319830326",
+    "imbalance": {
+      "diff": "4.462460995",
+      "usdPrice": 0.0052446491345872585,
+      "value": "$0.02 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xa83ff602675beca077093049ddd3b7aa5e42da2a",
+    "name": "Corlibri",
+    "decimals": "18",
+    "balance": "7.385554328995252306",
+    "reserve": "7.385554328995252306",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x85b31b4b523cf64341915a5e1771a43f846bd8d8",
+  "pairIndex": 28123,
+  "token0": {
+    "address": "0x5be5e170b2c3fbd00db7734086c39cd4813db0f4",
+    "name": "RFbtc2",
+    "decimals": "8",
+    "balance": "72,236.64778171",
+    "reserve": "71,819.97465985",
+    "imbalance": {
+      "diff": "416.67312186",
+      "usdPrice": 0.0011943863117260737,
+      "value": "$0.5 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xbce5b592e170fc8b7dc7ba8bb2f2a138e11c1530",
+    "name": "RFNEO",
+    "decimals": "8",
+    "balance": "48,987.35329033",
+    "reserve": "48,846.87330065",
+    "imbalance": {
+      "diff": "140.47998968",
+      "usdPrice": 0,
+      "value": "$0 🦄"
+    }
+  }
+},
+error in pair: 0x89817f9b1fb1bc209911e5c77379721cdaf484fd,
+
+            Error: Returned values aren't valid, did it run Out of Gas? You might also see this error if you are not using the correct ABI for the contract you are retrieving data from, requesting data from a block number that does not exist, or querying a node which is not fully synced. [object Object]
+error in pair: 0x62bac0626558023639c6526d6971ca046bd1cb78,
+
+            Error: Returned values aren't valid, did it run Out of Gas? You might also see this error if you are not using the correct ABI for the contract you are retrieving data from, requesting data from a block number that does not exist, or querying a node which is not fully synced. [object Object]
+{
+  "pairAddress": "0x48c64acfb625e0efe3a9d5159945e7eba4eff725",
+  "pairIndex": 28504,
+  "token0": {
+    "address": "0x1b36e35242a9822b2707157638256eea73e30882",
+    "name": "Finance AI",
+    "decimals": "9",
+    "balance": "91,207.513100639",
+    "reserve": "89,495.382228183",
+    "imbalance": {
+      "diff": "1,712.130872456",
+      "usdPrice": 0.043326303592,
+      "value": "$74.18 🦄"
+    }
+  },
+  "token1": {
+    "address": "0x374225706e53caa747986db61d03d851d8bc11f1",
+    "name": "Governance Finance AI",
+    "decimals": "0",
+    "balance": "114,876.0",
+    "reserve": "114,876.0",
+    "imbalance": false
+  }
+},
+error in pair: 0x82272155e4431f462cd1099dbcacd4ea690cdc93,
+
+            Error: Returned error: execution reverted [object Object]
+{
+  "pairAddress": "0x4a234422997bcfdff467739680b2fc4fb2808bfe",
+  "pairIndex": 28695,
+  "token0": {
+    "address": "0x3aa5f749d4a6bcf67dac1091ceb69d1f5d86fa53",
+    "name": "Deflect Protocol",
+    "decimals": "9",
+    "balance": "252.186095695",
+    "reserve": "241.641499963",
+    "imbalance": {
+      "diff": "10.544595732",
+      "usdPrice": 2.02,
+      "value": "$21.3 🦄"
+    }
+  },
+  "token1": {
+    "address": "0x50d2de5397d7c657c3d424634a2ddf4e0d73d789",
+    "name": "Bliss",
+    "decimals": "18",
+    "balance": "19,953.583453969754888805",
+    "reserve": "19,953.583453969754888805",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x37d7106d06429d27a367f3091c92490d3855bc00",
+  "pairIndex": 28696,
+  "token0": {
+    "address": "0x50d2de5397d7c657c3d424634a2ddf4e0d73d789",
+    "name": "Bliss",
+    "decimals": "18",
+    "balance": "38,571.958121419123373956",
+    "reserve": "38,571.958121419123373956",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0x790baf0c914898c62163a61f150637d4bd180697",
+    "name": "NIRVANA",
+    "decimals": "18",
+    "balance": "5,515.749813211041588036",
+    "reserve": "5,515.255874010940204490",
+    "imbalance": {
+      "diff": "0.493939200101449700",
+      "usdPrice": 0.255617,
+      "value": "$0.13 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0xea6ac74320ed3cdf7de5cacd03791d784a669fc8",
+  "pairIndex": 29139,
+  "token0": {
+    "address": "0x9df4ac60379c6dc2b295ea04cf80dd60dca99944",
+    "name": "Mythic Finance",
+    "decimals": "18",
+    "balance": "3,646.054789415826809471",
+    "reserve": "3,643.422852302921043350",
+    "imbalance": {
+      "diff": "2.631937112905613300",
+      "usdPrice": 5.012496496484301,
+      "value": "$13.19 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "4.804037406716058699",
+    "reserve": "4.804037406716058699",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x566bd15534edc77c918a208a8def774e19616412",
+  "pairIndex": 29155,
+  "token0": {
+    "address": "0x48be867b240d2ffaff69e0746130f2c027d8d3d2",
+    "name": "Elevate",
+    "decimals": "9",
+    "balance": "2,544.692304937",
+    "reserve": "2,544.692304937",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xa1afffe3f4d611d252010e3eaf6f4d77088b0cd7",
+    "name": "reflect.finance",
+    "decimals": "9",
+    "balance": "2,041.030827988",
+    "reserve": "2,020.623073199",
+    "imbalance": {
+      "diff": "20.407754789",
+      "usdPrice": 0.0384217,
+      "value": "$0.78 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x67dffe36144098bb6daccd06681f7389c7904700",
+  "pairIndex": 29336,
+  "token0": {
+    "address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+    "name": "Uniswap",
+    "decimals": "18",
+    "balance": "3.565001947768474184",
+    "reserve": "2.779339577801085698",
+    "imbalance": {
+      "diff": "0.785662369967388200",
+      "usdPrice": 17.14,
+      "value": "$13.47 🦄"
+    }
+  },
+  "token1": {
+    "address": "0x67c597624b17b16fb77959217360b7cd18284253",
+    "name": "Benchmark",
+    "decimals": "9",
+    "balance": "1.421356661",
+    "reserve": "67.754343700",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x854373387e41371ac6e307a1f29603c6fa10d872",
+  "pairIndex": 29357,
+  "token0": {
+    "address": "0x389999216860ab8e0175387a0c90e5c52522c945",
+    "name": "FEGtoken",
+    "decimals": "9",
+    "balance": "902,807,482,252,890.897999692",
+    "reserve": "902,807,428,263,535.156044421",
+    "imbalance": {
+      "diff": "53,989,355.697471490",
+      "usdPrice": 3.115e-9,
+      "value": "$0.17 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "764.530804124381506294",
+    "reserve": "764.530804124381506294",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x5fdc37cf54153533ebe5b2e542f6b9fbf904a83d",
+  "pairIndex": 29412,
+  "token0": {
+    "address": "0x93ed140172ff226dad1f7f3650489b8daa07ae7f",
+    "name": "ZZZ V2",
+    "decimals": "18",
+    "balance": "131.546683674044465113",
+    "reserve": "131.546683674044465113",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xa1afffe3f4d611d252010e3eaf6f4d77088b0cd7",
+    "name": "reflect.finance",
+    "decimals": "9",
+    "balance": "5,852.198188157",
+    "reserve": "5,846.433714283",
+    "imbalance": {
+      "diff": "5.764473874",
+      "usdPrice": 0.03842255,
+      "value": "$0.22 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x1acba73121d5f63d8ea40bdc64edb594bd88ed09",
+  "pairIndex": 29421,
+  "token0": {
+    "address": "0x93b2fff814fcaeffb01406e80b4ecd89ca6a021b",
+    "name": "Grumpy Cat",
+    "decimals": "9",
+    "balance": "71,340,212,344,091.083400307",
+    "reserve": "71,339,841,238,637.721309417",
+    "imbalance": {
+      "diff": "371,105,453.364477950",
+      "usdPrice": 5.79e-10,
+      "value": "$0.21 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "10.090168379932002301",
+    "reserve": "10.090168379932002301",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xd234e8493d6690d6a7820d3f6e4f1f13579efe3a",
+  "pairIndex": 29431,
+  "token0": {
+    "address": "0x925f2c11b99c1a4c46606898ee91ed3d450cfeda",
+    "name": "CHOWCHOW.finance",
+    "decimals": "9",
+    "balance": "30,950,957.422222305",
+    "reserve": "30,950,477.772550811",
+    "imbalance": {
+      "diff": "479.649671492",
+      "usdPrice": 0.00396777,
+      "value": "$1.9 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "31.452775369605851029",
+    "reserve": "31.452775369605851029",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x75c83c6dafe52218f7a13c8244e9af5b60bc4511",
+  "pairIndex": 29532,
+  "token0": {
+    "address": "0x7dbbcae15d4db168e01673400d7844870cc1e36f",
+    "name": "WOLFYCOIN",
+    "decimals": "9",
+    "balance": "117,211,382.047156967",
+    "reserve": "117,211,319.816905414",
+    "imbalance": {
+      "diff": "62.230251552",
+      "usdPrice": 0.00123435,
+      "value": "$0.08 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "38.138948528970475675",
+    "reserve": "38.138948528970475675",
+    "imbalance": false
+  }
+},
+error in pair: 0x97c68a56df08fc71acd5eaf874ecef19ae19526f,
+
+            Error: Returned error: execution reverted [object Object]
+error in pair: 0x32f24406c554a07e273e65b4553964b290028cd5,
+
+            Error: Returned values aren't valid, did it run Out of Gas? You might also see this error if you are not using the correct ABI for the contract you are retrieving data from, requesting data from a block number that does not exist, or querying a node which is not fully synced. [object Object]
+{
+  "pairAddress": "0x7a8630bb517163e2f86925e3716898d9658cf582",
+  "pairIndex": 29848,
+  "token0": {
+    "address": "0x6f347aec9078d988d9509c970c71839f020838c1",
+    "name": "Neonium Finance",
+    "decimals": "9",
+    "balance": "2,399,844.647162617",
+    "reserve": "2,365,889.391668817",
+    "imbalance": {
+      "diff": "33,955.255493800",
+      "usdPrice": 0.000022999081074622403,
+      "value": "$0.78 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.014313559295381899",
+    "reserve": "0.014313559295381899",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x7084ea1f613c33933dbdbade7756e570bb568190",
+  "pairIndex": 29899,
+  "token0": {
+    "address": "0x15c303b84045f67156acf6963954e4247b526717",
+    "name": "GCBN",
+    "decimals": "18",
+    "balance": "436.530645956607056752",
+    "reserve": "436.409524811023625660",
+    "imbalance": {
+      "diff": "0.121121145583435780",
+      "usdPrice": 2.34,
+      "value": "$0.28 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.008796430903614503",
+    "reserve": "0.008796430903614503",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x8d8da72161da2d800ebdd2a316214eac7c32fca0",
+  "pairIndex": 30279,
+  "token0": {
+    "address": "0x0bead9a1bcc1b84d06e3f2df67e3549fd55ab054",
+    "name": "EURxb",
+    "decimals": "18",
+    "balance": "10.141141479767784679",
+    "reserve": "9.990845139781863182",
+    "imbalance": {
+      "diff": "0.150296339985922050",
+      "usdPrice": 0.924628,
+      "value": "$0.14 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "name": "Tether USD",
+    "decimals": "6",
+    "balance": "10.157162",
+    "reserve": "10.157162",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x543749ea4d6241e86da478101493ec8238b9f376",
+  "pairIndex": 30302,
+  "token0": {
+    "address": "0x674c6ad92fd080e4004b2312b45f796a192d27a0",
+    "name": "Neutrino USD",
+    "decimals": "18",
+    "balance": "45.198574888769725940",
+    "reserve": "44.209404629480785704",
+    "imbalance": {
+      "diff": "0.989170259288940500",
+      "usdPrice": 0.991168,
+      "value": "$0.98 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xd478161c952357f05f0292b56012cd8457f1cfbf",
+    "name": "Polkamarkets",
+    "decimals": "18",
+    "balance": "97.606791798663620124",
+    "reserve": "97.606791798663620124",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x5b2d9b370e5e1a19bf85d8b5d96076f440c92e01",
+  "pairIndex": 30533,
+  "token0": {
+    "address": "0x0bead9a1bcc1b84d06e3f2df67e3549fd55ab054",
+    "name": "EURxb",
+    "decimals": "18",
+    "balance": "92,370.795347639301339629",
+    "reserve": "92,317.915532333677252058",
+    "imbalance": {
+      "diff": "52.879815305624290000",
+      "usdPrice": 0.924628,
+      "value": "$48.89 🦄"
+    }
+  },
+  "token1": {
+    "address": "0x5de7cc4bcbca31c473f6d2f27825cfb09cc0bb16",
+    "name": "XBE",
+    "decimals": "18",
+    "balance": "25.071558688868887503",
+    "reserve": "25.071558688868887503",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xb4a890fcfd936a338f703b502ccdf8892d5f6aec",
+  "pairIndex": 30661,
+  "token0": {
+    "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "name": "Tether USD",
+    "decimals": "6",
+    "balance": "170.621815",
+    "reserve": "170.621815",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xfad45e47083e4607302aa43c65fb3106f1cd7607",
+    "name": "hoge.finance",
+    "decimals": "9",
+    "balance": "745,491.937455165",
+    "reserve": "745,131.748701969",
+    "imbalance": {
+      "diff": "360.188753196",
+      "usdPrice": 0.00014766,
+      "value": "$0.05 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x96977cde397ee7acf7876d6be0f13bbf2bc6bbf5",
+  "pairIndex": 30871,
+  "token0": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "21.490579543880314737",
+    "reserve": "21.490579543880314737",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xf2df8458130f00c94bcde2dd3f288cf608187f87",
+    "name": "FEAST.finance",
+    "decimals": "9",
+    "balance": "248,958,260,965,260.737184240",
+    "reserve": "248,954,988,589,876.362876692",
+    "imbalance": {
+      "diff": "3,272,375,384.384995300",
+      "usdPrice": 3.21e-10,
+      "value": "$1.05 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x709043b155f73589eea2c4aefd8ff3108f11134e",
+  "pairIndex": 31073,
+  "token0": {
+    "address": "0x270371c58d9d775ed73971dd414656107384f235",
+    "name": "BTAP",
+    "decimals": "18",
+    "balance": "56,622,805.367858889750024822",
+    "reserve": "56,622,550.266445736443288857",
+    "imbalance": {
+      "diff": "255.101413155470840000",
+      "usdPrice": 0.0013112,
+      "value": "$0.33 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "20.147246978212484474",
+    "reserve": "20.147246978212484474",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x1e181fbba781ba0748b4961e7b5b9f9f92aaa96e",
+  "pairIndex": 31112,
+  "token0": {
+    "address": "0xacce3374597b53f4160a9ef4226449111058cdfb",
+    "name": "harvardcoin",
+    "decimals": "9",
+    "balance": "327,839,247,806.701252324",
+    "reserve": "327,837,821,443.025886045",
+    "imbalance": {
+      "diff": "1,426,363.675377664",
+      "usdPrice": 2.0796089633645315e-8,
+      "value": "$0.03 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "1.793425976985041261",
+    "reserve": "1.793425976985041261",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x40573bc4dff7bbf19ea85eecc10617df5c508302",
+  "pairIndex": 31321,
+  "token0": {
+    "address": "0x330046ce4ca9d4556f814b466cd72d1065f22f4c",
+    "name": "TheArmada.eth.link",
+    "decimals": "18",
+    "balance": "396.496927803192614678",
+    "reserve": "395.415909585690390592",
+    "imbalance": {
+      "diff": "1.081018217502277600",
+      "usdPrice": 1.1432826764729653,
+      "value": "$1.24 🦄"
+    }
+  },
+  "token1": {
+    "address": "0x8b79656fc38a04044e495e22fad747126ca305c4",
+    "name": "AgaveCoin",
+    "decimals": "18",
+    "balance": "321,010.362287741694153125",
+    "reserve": "321,010.362287741694153125",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x095f2c726347a02df226bd7315a2683e34b71572",
+  "pairIndex": 31626,
+  "token0": {
+    "address": "0xad9e92657ead18fabf699307b271b687c1db31e1",
+    "name": "Boomer.Finance",
+    "decimals": "9",
+    "balance": "4,278,907,993.178691966",
+    "reserve": "4,243,673,649.014466211",
+    "imbalance": {
+      "diff": "35,234,344.164226050",
+      "usdPrice": 2.159951415361127e-8,
+      "value": "$0.76 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.024111747155136669",
+    "reserve": "0.024111747155136669",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x5f6fbe81171d0f52cc58d6a2ac6ee1a9e52d18d2",
+  "pairIndex": 31705,
+  "token0": {
+    "address": "0x7ff4169a6b5122b664c51c95727d87750ec07c84",
+    "name": "10Set Token",
+    "decimals": "18",
+    "balance": "1,503,193.369330980936222778",
+    "reserve": "1,503,193.252808757960396695",
+    "imbalance": {
+      "diff": "0.116522223027617800",
+      "usdPrice": 3.15,
+      "value": "$0.37 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "1,253.237899577945293083",
+    "reserve": "1,253.237899577945293083",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xeec5e86fd487e503329daad3832ef3ae8e414839",
+  "pairIndex": 31897,
+  "token0": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.053244157336183932",
+    "reserve": "0.053244157336183932",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xd4a78e3e1a1fdef545cce86d5b8b0f2ad643d93b",
+    "name": "Bee.Farm",
+    "decimals": "9",
+    "balance": "6,760,205,928.767560198",
+    "reserve": "6,715,608,052.482632221",
+    "imbalance": {
+      "diff": "44,597,876.284928000",
+      "usdPrice": 3.014004501376808e-8,
+      "value": "$1.34 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0xc22b292059fe75900e8923f61835dd4dc9c82465",
+  "pairIndex": 32065,
+  "token0": {
+    "address": "0x07472fe96555b092cfc32e28dfb9a0accd29ffd8",
+    "name": "Sheep.Swap",
+    "decimals": "9",
+    "balance": "3,166,108,861.583736198",
+    "reserve": "3,146,776,584.145579122",
+    "imbalance": {
+      "diff": "19,332,277.438157310",
+      "usdPrice": 1.4989608021072186e-8,
+      "value": "$0.29 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.012407917760851109",
+    "reserve": "0.012407917760851109",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x86d330e94d1339b283316ea2c151a4dbb1b8da6f",
+  "pairIndex": 32091,
+  "token0": {
+    "address": "0x31e92324ef7185c65dd4d154cfa4f6326b489c55",
+    "name": "EARN Network",
+    "decimals": "8",
+    "balance": "3,119,793.85839597",
+    "reserve": "3,119,402.20139597",
+    "imbalance": {
+      "diff": "391.65700000",
+      "usdPrice": 0.01471168,
+      "value": "$5.76 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "12.472543548470561389",
+    "reserve": "12.472543548470561389",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x4fcb12e7e719a800186808c519a1b21bd1da9e71",
+  "pairIndex": 32102,
+  "token0": {
+    "address": "0xa10b749cd5cc19f2b415b19546cba5e98740c69c",
+    "name": "dalmatian.finance",
+    "decimals": "9",
+    "balance": "33,534,155,022.819889887",
+    "reserve": "33,316,473,317.298704453",
+    "imbalance": {
+      "diff": "217,681,705.521184770",
+      "usdPrice": 1.5936045016445226e-8,
+      "value": "$3.47 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.139663297463558880",
+    "reserve": "0.139663297463558880",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xb3e88fffce1a7be5b901338506d3ec4b395e18d1",
+  "pairIndex": 32187,
+  "token0": {
+    "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+    "name": "Dai Stablecoin",
+    "decimals": "18",
+    "balance": "697.453385757639868940",
+    "reserve": "697.453385757639868940",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xfad45e47083e4607302aa43c65fb3106f1cd7607",
+    "name": "hoge.finance",
+    "decimals": "9",
+    "balance": "4,297,863.189729037",
+    "reserve": "4,297,067.037456792",
+    "imbalance": {
+      "diff": "796.152272245",
+      "usdPrice": 0.00014761,
+      "value": "$0.12 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0xdf3d5b8727ac4cad9f5f293ca635e2bd195f840b",
+  "pairIndex": 32227,
+  "token0": {
+    "address": "0x2fc81fd2c4d31f0d17a300c1565ad42213f98c2d",
+    "name": "MuTwo",
+    "decimals": "18",
+    "balance": "300,802,093,906.278025008268966392",
+    "reserve": "296,606,529,744.615302761852574530",
+    "imbalance": {
+      "diff": "4,195,564,161.662740700000000000",
+      "usdPrice": 2.8086352120510317e-10,
+      "value": "$1.18 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.021913854025889334",
+    "reserve": "0.021913854025889334",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x1b62561e2c8657c404c1e6b0deb30206b7c9d731",
+  "pairIndex": 32272,
+  "token0": {
+    "address": "0xb08864ab478e78e0af6a81d6e4b809d6a09c6e87",
+    "name": "BlackHydra Project",
+    "decimals": "8",
+    "balance": "102,952.75994080",
+    "reserve": "101,491.99396952",
+    "imbalance": {
+      "diff": "1,460.76597128",
+      "usdPrice": 0.0005448545725833479,
+      "value": "$0.8 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.014546385917973480",
+    "reserve": "0.014546385917973480",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xe616ba3913a847ab3317b3ea13778a3269d2b2ca",
+  "pairIndex": 32301,
+  "token0": {
+    "address": "0x15c303b84045f67156acf6963954e4247b526717",
+    "name": "GCBN",
+    "decimals": "18",
+    "balance": "2,178.448613902289196772",
+    "reserve": "2,177.775731999805523045",
+    "imbalance": {
+      "diff": "0.672881902483669000",
+      "usdPrice": 2.34,
+      "value": "$1.57 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "name": "Tether USD",
+    "decimals": "6",
+    "balance": "106.381927",
+    "reserve": "106.381927",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x633dcd0024036f917ffd3554dc68174cd4a9b9fa",
+  "pairIndex": 32302,
+  "token0": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.000000000016745564",
+    "reserve": "0.000000000016745564",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xed0d5747a9ab03a75fbfec3228cd55848245b75d",
+    "name": "Next Generation Money",
+    "decimals": "6",
+    "balance": "5.000001",
+    "reserve": "0.000001",
+    "imbalance": {
+      "diff": "5.000000",
+      "usdPrice": 1.08,
+      "value": "$5.4 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x6e3baaf5d64e6c96d47f8adaf67a96956061b085",
+  "pairIndex": 32546,
+  "token0": {
+    "address": "0x07dd004d5f0c22e50fbc1398ed075ace5d190272",
+    "name": "Pumpy",
+    "decimals": "18",
+    "balance": "313,862,278,170.863673032719381195",
+    "reserve": "309,297,244,575.145001552577736147",
+    "imbalance": {
+      "diff": "4,565,033,595.718690000000000000",
+      "usdPrice": 1.6333171979691667e-10,
+      "value": "$0.75 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.013288908353739028",
+    "reserve": "0.013288908353739028",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xc192924508d9d9df36c1f3ce0e694a17848eecab",
+  "pairIndex": 32554,
+  "token0": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.021401992412812222",
+    "reserve": "0.021401992412812222",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xddf8cc4d7e5c486ecabb3f5bf34dbdc727645528",
+    "name": "MoonLambo",
+    "decimals": "18",
+    "balance": "321,388,665,495.497787403102180834",
+    "reserve": "316,603,737,596.479947740291659170",
+    "imbalance": {
+      "diff": "4,784,927,899.017819700000000000",
+      "usdPrice": 2.569777059955293e-10,
+      "value": "$1.23 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x97f591683976f0b2197d0fec37ecdc41e35ff7c3",
+  "pairIndex": 32566,
+  "token0": {
+    "address": "0x4f1944358a76a0a299845c980523e703487a58c7",
+    "name": "RocketMan.Finance",
+    "decimals": "18",
+    "balance": "317,123,411,402.082557483232774797",
+    "reserve": "312,463,724,733.658251720474688176",
+    "imbalance": {
+      "diff": "4,659,686,668.424308500000000000",
+      "usdPrice": 1.707113701820249e-10,
+      "value": "$0.8 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.014031521754840660",
+    "reserve": "0.014031521754840660",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xc327de42de1ce6eb0adcdb04c266be92a173528d",
+  "pairIndex": 32616,
+  "token0": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.010209730987539678",
+    "reserve": "0.010209730987539678",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xca29cc14e21719bcb9924b6ce05311a0797bf1fa",
+    "name": "SpankMonkey",
+    "decimals": "18",
+    "balance": "428,411,355,668.535484148475500015",
+    "reserve": "419,951,004,258.762865328309656088",
+    "imbalance": {
+      "diff": "8,460,351,409.772609000000000000",
+      "usdPrice": 9.242148762629602e-11,
+      "value": "$0.78 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x1248f889fde38331142dfc9c929acc80284ddc2d",
+  "pairIndex": 32756,
+  "token0": {
+    "address": "0x4c73c43ee77e289b8efaf077ce5cd1448103d5fe",
+    "name": "RocketDoge",
+    "decimals": "18",
+    "balance": "224,187,903,368.096551598338825336",
+    "reserve": "221,849,073,672.660359564051844679",
+    "imbalance": {
+      "diff": "2,338,829,695.436200800000000000",
+      "usdPrice": 2.429238089808975e-10,
+      "value": "$0.57 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.014176545696312633",
+    "reserve": "0.014176545696312633",
+    "imbalance": false
+  }
+},
+error in pair: 0x5cae075a2221ddf2797862ba9ac8e152c2eb779d,
+
+            Error: Returned values aren't valid, did it run Out of Gas? You might also see this error if you are not using the correct ABI for the contract you are retrieving data from, requesting data from a block number that does not exist, or querying a node which is not fully synced. [object Object]
+{
+  "pairAddress": "0x9314941c11d6dee1d7bf93113eb74d4718949f3b",
+  "pairIndex": 32849,
+  "token0": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "15.980876360665274888",
+    "reserve": "15.980876360665274888",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xc40af1e4fecfa05ce6bab79dcd8b373d2e436c4e",
+    "name": "Hokkaidu Inu",
+    "decimals": "9",
+    "balance": "14,664,811,925,006,760.726426249",
+    "reserve": "14,664,755,699,292,666.773501420",
+    "imbalance": {
+      "diff": "56,225,714,094.410300000",
+      "usdPrice": 4.142695749478221e-12,
+      "value": "$0.23 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0xf82d8ec196fb0d56c6b82a8b1870f09502a49f88",
+  "pairIndex": 32900,
+  "token0": {
+    "address": "0xa2b4c0af19cc16a6cfacce81f192b024d625817d",
+    "name": "Kishu Inu",
+    "decimals": "9",
+    "balance": "1,107,354,416,369,100.418342218",
+    "reserve": "1,107,354,359,480,222.612451121",
+    "imbalance": {
+      "diff": "56,888,877.918453760",
+      "usdPrice": 2.345e-9,
+      "value": "$0.13 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "682.918144432217057542",
+    "reserve": "682.918144432217057542",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x463d0f2b7b0b596ba50296a245c0d3810700fb4f",
+  "pairIndex": 32902,
+  "token0": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.002013475791816614",
+    "reserve": "0.002013475791816614",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xe01466701569873a3c76b95c37ed82e2f1e857b8",
+    "name": " CHARMANDER.finance",
+    "decimals": "18",
+    "balance": "9,160,887,362.503576612158354188",
+    "reserve": "9,047,483,117.940613400469183048",
+    "imbalance": {
+      "diff": "113,404,244.562963820000000000",
+      "usdPrice": 8.460108067987153e-10,
+      "value": "$0.1 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x9992b559b62ebc74d76e2d38b333bab3d025c13b",
+  "pairIndex": 33056,
+  "token0": {
+    "address": "0x1296a923cd4f39116e0297d921fe25fe228552c6",
+    "name": "STONER DOGE",
+    "decimals": "18",
+    "balance": "246,771.474285196693955464",
+    "reserve": "246,757.954529981811760204",
+    "imbalance": {
+      "diff": "13.519755214894137000",
+      "usdPrice": 0.0013344,
+      "value": "$0.02 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.079360189890748139",
+    "reserve": "0.079360189890748139",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x1636a5dfcf7a21945c06d1bea40b52ce975ea614",
+  "pairIndex": 33110,
+  "token0": {
+    "address": "0x106d3c66d22d2dd0446df23d7f5960752994d600",
+    "name": "Labra",
+    "decimals": "9",
+    "balance": "56,348,723,185,476.903422853",
+    "reserve": "56,348,653,967,424.501783531",
+    "imbalance": {
+      "diff": "69,218,052.402577410",
+      "usdPrice": 3.155e-9,
+      "value": "$0.22 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "44.477145307509543171",
+    "reserve": "44.477145307509543171",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xf809c63638ec068f4a2ed26a4d744ffff2bf13af",
+  "pairIndex": 33304,
+  "token0": {
+    "address": "0x62049dcc5d7ec8d405883b66258ac5367e6c1367",
+    "name": "Papa Inu",
+    "decimals": "18",
+    "balance": "425,320,565,721.566607501398712298",
+    "reserve": "416,980,660,784.923284520015249348",
+    "imbalance": {
+      "diff": "8,339,904,936.643377000000000000",
+      "usdPrice": 5.104169498541634e-10,
+      "value": "$4.26 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.055986551965007187",
+    "reserve": "0.055986551965007187",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xb676acb65fdfeb4614001588724376e2732ad368",
+  "pairIndex": 33395,
+  "token0": {
+    "address": "0x885e8d7735f61626b7311602a51fa9299a053400",
+    "name": "BigSmoge",
+    "decimals": "9",
+    "balance": "4,042,042,032,894.232397240",
+    "reserve": "4,010,586,289,296.590162622",
+    "imbalance": {
+      "diff": "31,455,743,597.641990000",
+      "usdPrice": 2.7648901592411056e-11,
+      "value": "$0.87 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.029169465277213971",
+    "reserve": "0.029169465277213971",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xf855d905888ff48c1a716a0d184ff5ca02909baf",
+  "pairIndex": 33509,
+  "token0": {
+    "address": "0x28a06c02287e657ec3f8e151a13c36a1d43814b0",
+    "name": "BondAppetit Governance",
+    "decimals": "18",
+    "balance": "129.519669858924220909",
+    "reserve": "129.519669858924220909",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0x674c6ad92fd080e4004b2312b45f796a192d27a0",
+    "name": "Neutrino USD",
+    "decimals": "18",
+    "balance": "35.470705019707613391",
+    "reserve": "34.258802241232353529",
+    "imbalance": {
+      "diff": "1.211902778475257900",
+      "usdPrice": 0.993015,
+      "value": "$1.2 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0xcc667a5228bdc2bdb2a08a0ef054502bf1159ce5",
+  "pairIndex": 33682,
+  "token0": {
+    "address": "0x104e072f3a7447e803e451b2aec296c73c5ce668",
+    "name": "GreatPyrenees",
+    "decimals": "18",
+    "balance": "3,502,430.000000000003502430",
+    "reserve": "3,502,430.000000000003502430",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xd5281bb2d1ee94866b03a0fccdd4e900c8cb5091",
+    "name": "HuskyToken",
+    "decimals": "9",
+    "balance": "1,083,757,786.425838021",
+    "reserve": "970,000,029.100000874",
+    "imbalance": {
+      "diff": "113,757,757.325837180",
+      "usdPrice": 1.819e-9,
+      "value": "$0.21 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x6fc85bead86fe53926170219cdd80c819111a992",
+  "pairIndex": 33930,
+  "token0": {
+    "address": "0x030c1a0bcd18af48dcb7f383b3f97742e454f7e5",
+    "name": "WeedElon",
+    "decimals": "9",
+    "balance": "436,209,101,015,869.658225956",
+    "reserve": "432,547,928,237,793.997297246",
+    "imbalance": {
+      "diff": "3,661,172,778,075.630300000",
+      "usdPrice": 3.3347652342414593e-13,
+      "value": "$1.22 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.037943922252955792",
+    "reserve": "0.037943922252955792",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xd37efb5fe26b61395e88858ed92b5892ba30305a",
+  "pairIndex": 34022,
+  "token0": {
+    "address": "0xaea167430b05f3b84619a91a1e0e4d12b3e4be30",
+    "name": "Elon The Holy Embodiment Resurrects Everyones Uniswap Money",
+    "decimals": "9",
+    "balance": "4,134,027.996452630",
+    "reserve": "3,979,310.290177947",
+    "imbalance": {
+      "diff": "154,717.706274683",
+      "usdPrice": 0.000012027464331208239,
+      "value": "$1.86 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.012589967323051087",
+    "reserve": "0.012589967323051087",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x26d173b771a255bc0dd8698bb3ab2e4b707f8a90",
+  "pairIndex": 34168,
+  "token0": {
+    "address": "0x1426cc6d52d1b14e2b3b1cb04d57ea42b39c4c7c",
+    "name": "Jomon Shiba",
+    "decimals": "9",
+    "balance": "61,987,947,491,001.676399501",
+    "reserve": "61,922,386,060,135.434219209",
+    "imbalance": {
+      "diff": "65,561,430,866.238900000",
+      "usdPrice": 1.3e-11,
+      "value": "$0.85 🦄"
+    }
+  },
+  "token1": {
+    "address": "0x17eb50fdd2995696ee82912a80a9766fcbb0ecca",
+    "name": "DogenToken",
+    "decimals": "18",
+    "balance": "1,433,206,595.072453130655280852",
+    "reserve": "1,433,206,595.072453130655280852",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xfaad180045fca84b515fd40d3e265dfab6f161a3",
+  "pairIndex": 34300,
+  "token0": {
+    "address": "0x171706b7d113c68f2cc68a6ce63b1dbdcdf7b233",
+    "name": "Echo Token",
+    "decimals": "18",
+    "balance": "4,519,731,790.993705011797237374",
+    "reserve": "4,519,517,767.937989145277514837",
+    "imbalance": {
+      "diff": "214,023.055716050330000000",
+      "usdPrice": 0.00001676,
+      "value": "$3.59 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "18.762828236262124183",
+    "reserve": "18.762828236262124183",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x9c2b243410334905b235873ecd61f5a63eacfad7",
+  "pairIndex": 34533,
+  "token0": {
+    "address": "0x3aa5f749d4a6bcf67dac1091ceb69d1f5d86fa53",
+    "name": "Deflect Protocol",
+    "decimals": "9",
+    "balance": "689.266419445",
+    "reserve": "687.282946434",
+    "imbalance": {
+      "diff": "1.983473011",
+      "usdPrice": 2.02,
+      "value": "$4.01 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xd46df541148932690b81092f600f35208afd4325",
+    "name": "PRISM Token",
+    "decimals": "18",
+    "balance": "92.669629117691530980",
+    "reserve": "92.669629117691530980",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x2ce698751f8d27be3fef751d788fe2f30bd4dada",
+  "pairIndex": 34599,
+  "token0": {
+    "address": "0x15e5542f0239573376a4b09bd6f92f30187b9cac",
+    "name": "Cuban Doge",
+    "decimals": "9",
+    "balance": "8,163,024,088.248399158",
+    "reserve": "8,153,355,310.827209773",
+    "imbalance": {
+      "diff": "9,668,777.421189120",
+      "usdPrice": 8.939567702991845e-9,
+      "value": "$0.09 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.019173244335867747",
+    "reserve": "0.019173244335867747",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x2306c92da906ebf8425f78472d0b9542bdafd335",
+  "pairIndex": 34613,
+  "token0": {
+    "address": "0xb8943010ad11874c207f910241d6218a09a0f706",
+    "name": "Sea Elon",
+    "decimals": "9",
+    "balance": "281,950,216,355,412.201224049",
+    "reserve": "280,416,070,688,999.220938941",
+    "imbalance": {
+      "diff": "1,534,145,666,412.970000000",
+      "usdPrice": 6.576187354798136e-13,
+      "value": "$1.01 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.048508718042971681",
+    "reserve": "0.048508718042971681",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xc56e82b97cce4afcf70bf07bf4f19d4f3610f57d",
+  "pairIndex": 34743,
+  "token0": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.024844825895229220",
+    "reserve": "0.024844825895229220",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xe4a26b5514e8ceea423f42cc4aa6576bc6c2dfdc",
+    "name": "NFT DOGE",
+    "decimals": "18",
+    "balance": "7,731,250,614,858.658557381672654666",
+    "reserve": "7,622,730,940,697.288344628252477780",
+    "imbalance": {
+      "diff": "108,519,674,161.369870000000000000",
+      "usdPrice": 1.2390323529980471e-11,
+      "value": "$1.34 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0xd074b3b19b9cbd9bc77d8d1fde11ce96de5528a2",
+  "pairIndex": 34751,
+  "token0": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "23.660304043817802610",
+    "reserve": "23.660304043817802610",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xe6fddbdf23395015d6d8b70635b46ddebffdf86c",
+    "name": "Infinity Doge",
+    "decimals": "9",
+    "balance": "176,732,756.190227775",
+    "reserve": "176,732,370.874075414",
+    "imbalance": {
+      "diff": "385.316152352",
+      "usdPrice": 0.0005089340372893066,
+      "value": "$0.2 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x515d5246621a042abbc2aaf6076532f27d886d19",
+  "pairIndex": 34784,
+  "token0": {
+    "address": "0x84679bc467dc6c2c40ab04538813aff3796351f1",
+    "name": "CHONK",
+    "decimals": "18",
+    "balance": "114.543496269363784306",
+    "reserve": "114.543496269363784306",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xfad45e47083e4607302aa43c65fb3106f1cd7607",
+    "name": "hoge.finance",
+    "decimals": "9",
+    "balance": "21,436,292.373638230",
+    "reserve": "21,432,876.914681535",
+    "imbalance": {
+      "diff": "3,415.458956696",
+      "usdPrice": 0.0001479,
+      "value": "$0.51 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x4c84e33e3f2f26d3d382500d2102bf8c4b35f7ec",
+  "pairIndex": 35098,
+  "token0": {
+    "address": "0x17eb50fdd2995696ee82912a80a9766fcbb0ecca",
+    "name": "DogenToken",
+    "decimals": "18",
+    "balance": "113,035,742.562048336556226401",
+    "reserve": "113,035,742.562048336556226401",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0x41933422dc4a1cb8c822e06f12f7b52fa5e7e094",
+    "name": " SPACE HOGE",
+    "decimals": "18",
+    "balance": "8,870,839,938.015872419917982243",
+    "reserve": "8,866,771,952.379741898114135729",
+    "imbalance": {
+      "diff": "4,067,985.636130428700000000",
+      "usdPrice": 4.5578e-8,
+      "value": "$0.19 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x7f4c54c629ea50079c6e1acd817b60b329642763",
+  "pairIndex": 35323,
+  "token0": {
+    "address": "0x5e05a2a5ee1b23267bc46f72f6c25ddee4af8144",
+    "name": "Star Wars",
+    "decimals": "9",
+    "balance": "836,857,573,543.989575302",
+    "reserve": "836,141,420,326.539506563",
+    "imbalance": {
+      "diff": "716,153,217.450115100",
+      "usdPrice": 1.135614566165022e-8,
+      "value": "$8.13 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "2.497775564239379600",
+    "reserve": "2.497775564239379600",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x9d7a50e8193b3a2a7feb697d92baa1915ed462ce",
+  "pairIndex": 35426,
+  "token0": {
+    "address": "0x21bf40e93d6419b8eb553c4d7222d8089d3bacc6",
+    "name": "Sith Token",
+    "decimals": "9",
+    "balance": "2,231,323,313.086504712",
+    "reserve": "2,221,704,090.295427839",
+    "imbalance": {
+      "diff": "9,619,222.791076864",
+      "usdPrice": 1.231539060978196e-7,
+      "value": "$1.18 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.071974246331305587",
+    "reserve": "0.071974246331305587",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x5523d025e9c7baea456f0d2fac644cb3fd412310",
+  "pairIndex": 35522,
+  "token0": {
+    "address": "0x535ca610a058072c1f44bab0c369266474d4b65e",
+    "name": "Hippie",
+    "decimals": "9",
+    "balance": "298,238,808.380350317",
+    "reserve": "294,822,781.031088914",
+    "imbalance": {
+      "diff": "3,416,027.349261440",
+      "usdPrice": 7.404767913506923e-7,
+      "value": "$2.53 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.057426878436780153",
+    "reserve": "0.057426878436780153",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x01e4ed16b758c9904a611aafa35cebb21b15824d",
+  "pairIndex": 35581,
+  "token0": {
+    "address": "0x63dec47fa903b1d3620a285229ab85ec23f17d04",
+    "name": "Millenium Falcon",
+    "decimals": "9",
+    "balance": "3,286,097,627.740735915",
+    "reserve": "3,265,277,098.239708582",
+    "imbalance": {
+      "diff": "20,820,529.501027330",
+      "usdPrice": 3.898759447670984e-8,
+      "value": "$0.81 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.033487999368741342",
+    "reserve": "0.033487999368741342",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x13e74cbcd161bb24aa6348920e163e6f194298d6",
+  "pairIndex": 35684,
+  "token0": {
+    "address": "0x29c0d8a497c17afefd8b346ddaa988515e354089",
+    "name": "Saturday Elon",
+    "decimals": "9",
+    "balance": "2,392,389,041.575197667",
+    "reserve": "2,380,506,495.889026935",
+    "imbalance": {
+      "diff": "11,882,545.686170624",
+      "usdPrice": 5.7324813542335994e-8,
+      "value": "$0.68 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.035896717895251924",
+    "reserve": "0.035896717895251924",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xebee0cf6ab1bf5b9e9be1a9348632c79089d3b6a",
+  "pairIndex": 35714,
+  "token0": {
+    "address": "0x1997830b5beb723f5089bb8fc38766d419a0444d",
+    "name": "New Guinea Singing Dog Inu",
+    "decimals": "9",
+    "balance": "10,685,388,173,785,508.764065407",
+    "reserve": "10,685,277,400,001,828.973202827",
+    "imbalance": {
+      "diff": "110,773,783,679.188600000",
+      "usdPrice": 4e-12,
+      "value": "$0.44 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "10.965765231606866459",
+    "reserve": "10.965765231606866459",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x37ecb5e73206afb98cf29ae432004e479cedc050",
+  "pairIndex": 36025,
+  "token0": {
+    "address": "0xb9b5685f81926678d9737127243ce013d8983a63",
+    "name": " Chameleon",
+    "decimals": "18",
+    "balance": "3,184,125,421,093.112010542980993343",
+    "reserve": "3,091,543,885,110.681664439521791254",
+    "imbalance": {
+      "diff": "92,581,535,982.430050000000000000",
+      "usdPrice": 2.0081079960437127e-11,
+      "value": "$1.86 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.016330715071368309",
+    "reserve": "0.016330715071368309",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x2d27cae0c7e88de9b85b3e44ea37b9cb70ca745f",
+  "pairIndex": 36090,
+  "token0": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "234.160788784273171881",
+    "reserve": "234.160788784273171881",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xcd7492db29e2ab436e819b249452ee1bbdf52214",
+    "name": "SafeMoon Inu",
+    "decimals": "8",
+    "balance": "73,963,805,912.75038596",
+    "reserve": "73,963,801,092.10673656",
+    "imbalance": {
+      "diff": "4,820.64365568",
+      "usdPrice": 0.00001184,
+      "value": "$0.06 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x8b5946a895a4c0a34d2b821df155bb06a1ed19ff",
+  "pairIndex": 36091,
+  "token0": {
+    "address": "0x2d7ec24b9726010b1cd7b83f119495619fb0ba6b",
+    "name": "MamaShiba",
+    "decimals": "9",
+    "balance": "5,095,083,863.414644697",
+    "reserve": "5,045,204,445.983644026",
+    "imbalance": {
+      "diff": "49,879,417.431001090",
+      "usdPrice": 3.775241708650353e-8,
+      "value": "$1.88 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.050103290928748628",
+    "reserve": "0.050103290928748628",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x2adfd97033d1f2299fde3acc64d2ee4a7f6f62e4",
+  "pairIndex": 36117,
+  "token0": {
+    "address": "0x24f2d63a5ee7a8a75dd37950590bbcb89786a6bc",
+    "name": "AvaDog",
+    "decimals": "9",
+    "balance": "310,784,745.541914395",
+    "reserve": "310,778,248.246599622",
+    "imbalance": {
+      "diff": "6,497.295314752",
+      "usdPrice": 0.000049843493844111035,
+      "value": "$0.32 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "4.074757913509069592",
+    "reserve": "4.074757913509069592",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xb7d71dd87b7758d3f45d1ec6efc0bd12dd4f453c",
+  "pairIndex": 36288,
+  "token0": {
+    "address": "0x994ad77557718ac26262d9c0051b3cae5c72f71c",
+    "name": "AuntShiba",
+    "decimals": "8",
+    "balance": "3,276,971.03510923",
+    "reserve": "3,267,026.47236669",
+    "imbalance": {
+      "diff": "9,944.56274254",
+      "usdPrice": 0.0000730016812342423,
+      "value": "$0.73 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.062737648393154376",
+    "reserve": "0.062737648393154376",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xde3913ddd3ca7d3826dd1ad4d073b1401a9c4304",
+  "pairIndex": 36329,
+  "token0": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.051391521005039090",
+    "reserve": "0.051391521005039090",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xdd7baea8d8fd40baa99ed458ff7cbee12ed649dc",
+    "name": "Sushiba Inu",
+    "decimals": "8",
+    "balance": "2,783,001,667,057.62862269",
+    "reserve": "2,747,050,833,311.59551220",
+    "imbalance": {
+      "diff": "35,950,833,746.03305000",
+      "usdPrice": 7.111841272174814e-11,
+      "value": "$2.56 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x9046812aba5bc885fca53e1b409471ea7abaedaf",
+  "pairIndex": 36433,
+  "token0": {
+    "address": "0x86ed2349a3b5fc859ebc0ff64a215985b5070213",
+    "name": "BalloonKishu",
+    "decimals": "18",
+    "balance": "101,000,000,000,000.000100000000000000",
+    "reserve": "101,000,000,000,000.000100000000000000",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.081132836029572741",
+    "reserve": "0.081032836029572741",
+    "imbalance": {
+      "diff": "0.000100000000000000",
+      "usdPrice": 3743.8,
+      "value": "$0.37 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x85308728a423994356b54ce05e11105eb977fdc3",
+  "pairIndex": 36654,
+  "token0": {
+    "address": "0x3985597524c0bf107942ce9cbb46760717acc677",
+    "name": "Dumb Inu",
+    "decimals": "9",
+    "balance": "3,623,036,585,713.664644317",
+    "reserve": "3,597,743,941,434.352410853",
+    "imbalance": {
+      "diff": "25,292,644,279.312187000",
+      "usdPrice": 3.4948637320469616e-11,
+      "value": "$0.88 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.033075256260944586",
+    "reserve": "0.033075256260944586",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xa47585458d2324657d03292b10fb31dd6ad69437",
+  "pairIndex": 36659,
+  "token0": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.000878091470123706",
+    "reserve": "0.000878091470123706",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xdd58030d2902f007c367503dc0c24a24c2c739eb",
+    "name": "Cyber Inu",
+    "decimals": "9",
+    "balance": "16,374,466,012.536672621",
+    "reserve": "16,200,716,760.805811089",
+    "imbalance": {
+      "diff": "173,749,251.730862080",
+      "usdPrice": 2.0604534569608988e-10,
+      "value": "$0.04 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x3b787434e7ab21ec1739a513ac1563a27971b0e6",
+  "pairIndex": 36748,
+  "token0": {
+    "address": "0x1fe881064ba140af027db6c796f0b0c93ad5a924",
+    "name": "Goofy Inu",
+    "decimals": "9",
+    "balance": "3,949,855,162,084.872030096",
+    "reserve": "3,919,812,546,872.166894468",
+    "imbalance": {
+      "diff": "30,042,615,212.705055000",
+      "usdPrice": 3.64875338460338e-11,
+      "value": "$1.1 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.037622922666224603",
+    "reserve": "0.037622922666224603",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xeddfbb6dec91adfc4f32adc569a31ebc4d61e042",
+  "pairIndex": 36929,
+  "token0": {
+    "address": "0x764be4255bfe41f31bf8530f3063360ccd822640",
+    "name": "treattoken.net",
+    "decimals": "9",
+    "balance": "4,091,080,110,182.153090135",
+    "reserve": "4,058,859,536,267.779906284",
+    "imbalance": {
+      "diff": "32,220,573,914.373290000",
+      "usdPrice": 3.2392471566652416e-11,
+      "value": "$1.04 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.034585242776991852",
+    "reserve": "0.034585242776991852",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x049057376beacc75636d73796b282070c722c489",
+  "pairIndex": 37068,
+  "token0": {
+    "address": "0xb3d613890c538ad1036e619d6cf77073db0221d1",
+    "name": "CaptainShiba",
+    "decimals": "9",
+    "balance": "4,598,069,166.225096160",
+    "reserve": "4,557,014,713.147430011",
+    "imbalance": {
+      "diff": "41,054,453.077666300",
+      "usdPrice": 3.460939355490103e-8,
+      "value": "$1.42 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.041487488068665643",
+    "reserve": "0.041487488068665643",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xc454aa03beb0365aa078ac81a5b18532ab7fbc40",
+  "pairIndex": 37191,
+  "token0": {
+    "address": "0x4bc16275f97948780641864bcd868d82c59d1cb7",
+    "name": "Samojedi Inu (Samojedi.Finance)",
+    "decimals": "9",
+    "balance": "5,164,950,480,979.233957124",
+    "reserve": "5,113,700,615,891.128175712",
+    "imbalance": {
+      "diff": "51,249,865,088.105970000",
+      "usdPrice": 2.0661355096234987e-11,
+      "value": "$1.06 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.027793089154012649",
+    "reserve": "0.027793089154012649",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x223eb47de7254e84b958cc068b9eeb56e762d670",
+  "pairIndex": 37296,
+  "token0": {
+    "address": "0x920fbc929bb5940fc44dd722577d542caa0cd6d8",
+    "name": "CatNorris Revenge",
+    "decimals": "9",
+    "balance": "3,662,156,196,355.554687224",
+    "reserve": "3,636,316,358,195.000066334",
+    "imbalance": {
+      "diff": "25,839,838,160.555080000",
+      "usdPrice": 1.7049449602664482e-11,
+      "value": "$0.44 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.016308527243941924",
+    "reserve": "0.016308527243941924",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xea9614cafda5641e594c823c1d5bb4fa82d72af4",
+  "pairIndex": 37324,
+  "token0": {
+    "address": "0x8a82054baa68d577845788c71c892608533c5782",
+    "name": "DiosMios",
+    "decimals": "9",
+    "balance": "3,320,279,813,691.214074345",
+    "reserve": "3,299,025,279,358.967670619",
+    "imbalance": {
+      "diff": "21,254,534,332.246130000",
+      "usdPrice": 2.3498345076006028e-11,
+      "value": "$0.5 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.020392273203572310",
+    "reserve": "0.020392273203572310",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x65372984ed524d95eed10222021615738b748d51",
+  "pairIndex": 37658,
+  "token0": {
+    "address": "0x09708b6724d278de64e5d598c38858c144e17356",
+    "name": "Charmander (Charmandercoin.io) ",
+    "decimals": "9",
+    "balance": "5,471,514,194,872.255426894",
+    "reserve": "5,414,033,797,900.289352378",
+    "imbalance": {
+      "diff": "57,480,396,971.966460000",
+      "usdPrice": 2.591496702048607e-11,
+      "value": "$1.49 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.036907475778210545",
+    "reserve": "0.036907475778210545",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x971fa6a7b8f74fed8f01cc5e8f38e6ca3a84f5a3",
+  "pairIndex": 37906,
+  "token0": {
+    "address": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
+    "name": "SHIBA INU",
+    "decimals": "18",
+    "balance": "21,023,270.931326408427217248",
+    "reserve": "21,023,270.931326408427217248",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xa2b4c0af19cc16a6cfacce81f192b024d625817d",
+    "name": "Kishu Inu",
+    "decimals": "9",
+    "balance": "221,948,953,812.105976208",
+    "reserve": "221,887,110,530.535463513",
+    "imbalance": {
+      "diff": "61,843,281.570529280",
+      "usdPrice": 2.372e-9,
+      "value": "$0.15 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x781151b6145bcf9dd0d415398618250f33d824d3",
+  "pairIndex": 37993,
+  "token0": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "4.666461551233237282",
+    "reserve": "4.666461551233237282",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xe10e624b2bc2887b0ff359bcd1654b32b5fa929a",
+    "name": "Shiba Wizard",
+    "decimals": "9",
+    "balance": "339,663,602,202.999240810",
+    "reserve": "339,656,665,932.212573140",
+    "imbalance": {
+      "diff": "6,936,270.786658304",
+      "usdPrice": 5.2228172432760645e-8,
+      "value": "$0.36 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x1de2a7cdd2c2dc53f57cbfde523c5452592ef606",
+  "pairIndex": 38444,
+  "token0": {
+    "address": "0x2b0b922810cfe22a494fc31d17e4103ad7ddf880",
+    "name": "Grey Inu",
+    "decimals": "9",
+    "balance": "381,328,648,723.002141008",
+    "reserve": "381,321,694,335.854790083",
+    "imbalance": {
+      "diff": "6,954,387.147390976",
+      "usdPrice": 9.862661748788182e-8,
+      "value": "$0.69 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "9.893008293286197309",
+    "reserve": "9.893008293286197309",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x8d7bed5b25b291c7d76578ac02979ec5ea33c97f",
+  "pairIndex": 38486,
+  "token0": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "163.854042058458962320",
+    "reserve": "163.854042058458962320",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xf8a4a419c2d7140e49ef952a7e7ae1bd4a8b6b9c",
+    "name": "Lith Token",
+    "decimals": "18",
+    "balance": "303,083,653.434269785916997548",
+    "reserve": "303,079,434.846402636898169832",
+    "imbalance": {
+      "diff": "4,218.587867171734400000",
+      "usdPrice": 0.00202503,
+      "value": "$8.54 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x43cb247600458c4f5e3445da22390408c284fad0",
+  "pairIndex": 38572,
+  "token0": {
+    "address": "0x104e072f3a7447e803e451b2aec296c73c5ce668",
+    "name": "GreatPyrenees",
+    "decimals": "18",
+    "balance": "206,937,157.831343340793360344",
+    "reserve": "206,937,157.831343340793360344",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xa2b4c0af19cc16a6cfacce81f192b024d625817d",
+    "name": "Kishu Inu",
+    "decimals": "9",
+    "balance": "10,751,478,640.956765258",
+    "reserve": "10,663,650,884.709276031",
+    "imbalance": {
+      "diff": "87,827,756.247490560",
+      "usdPrice": 2.381e-9,
+      "value": "$0.21 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x9cbfb60a09a9a33a10312da0f39977cbdb7fde23",
+  "pairIndex": 38863,
+  "token0": {
+    "address": "0x8b3192f5eebd8579568a2ed41e6feb402f93f73f",
+    "name": "Saitama Inu",
+    "decimals": "9",
+    "balance": "257,536,569,358,856.651331167",
+    "reserve": "257,536,566,681,170.113488772",
+    "imbalance": {
+      "diff": "2,677,686.522609664",
+      "usdPrice": 4.8263e-8,
+      "value": "$0.13 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "3,351.112916863556505092",
+    "reserve": "3,351.112916863556505092",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xe5a7a8f617197ff579b7a28c9a38cb27c71c360b",
+  "pairIndex": 39317,
+  "token0": {
+    "address": "0x86077e2337eebbd1ddbaf907a7e6ce44a40b0aec",
+    "name": "Ethereum London (https://t.me/london1599)",
+    "decimals": "9",
+    "balance": "7,931,508,185.246280739",
+    "reserve": "7,751,351,692.548636875",
+    "imbalance": {
+      "diff": "180,156,492.697644030",
+      "usdPrice": 9.064616314448148e-9,
+      "value": "$1.63 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.018482877641391241",
+    "reserve": "0.018482877641391241",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x81418f2804f3862c8de6540235ccf70cd5bd4f2f",
+  "pairIndex": 39480,
+  "token0": {
+    "address": "0x95eb3c651b8212362a7c1dccc9e0e0240eba9471",
+    "name": "HODL inu",
+    "decimals": "9",
+    "balance": "395,084,885,717.708656273",
+    "reserve": "395,080,535,472.218071446",
+    "imbalance": {
+      "diff": "4,350,245.490589696",
+      "usdPrice": 2.4987872101143993e-8,
+      "value": "$0.11 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "2.596914363210312693",
+    "reserve": "2.596914363210312693",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x07d442c2a5964bf94d0cec840067a7cc80bcd985",
+  "pairIndex": 40023,
+  "token0": {
+    "address": "0x8fa025e8342ead1037d2954b95333ff2bf57162b",
+    "name": "ShibaMax",
+    "decimals": "9",
+    "balance": "4,363,202,179,514.896841085",
+    "reserve": "4,363,145,466,663.744827454",
+    "imbalance": {
+      "diff": "56,712,851.152175100",
+      "usdPrice": 1.869e-9,
+      "value": "$0.11 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "1.987814340177166957",
+    "reserve": "1.987814340177166957",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xd16f992444291718a4af36286d89b879f85de318",
+  "pairIndex": 40322,
+  "token0": {
+    "address": "0x159f2a34ddb416ebe7b3272d3927af6756ba71de",
+    "name": "Daschund Inu",
+    "decimals": "8",
+    "balance": "2,338,532,601,982.83232773",
+    "reserve": "2,311,247,443,490.05068991",
+    "imbalance": {
+      "diff": "27,285,158,492.78193700",
+      "usdPrice": 7.749060266240195e-11,
+      "value": "$2.11 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.047112722620946317",
+    "reserve": "0.047112722620946317",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xc034656349ff8dfdd8ba2cc38cac690f7b69e47d",
+  "pairIndex": 40838,
+  "token0": {
+    "address": "0x2dfac6327dce9f88e31ff46de13049eca5a7dfcb",
+    "name": "Shiberus Inu",
+    "decimals": "9",
+    "balance": "294,640,043,060,424.272705200",
+    "reserve": "294,632,663,972,620.823388365",
+    "imbalance": {
+      "diff": "7,379,087,803.432305000",
+      "usdPrice": 7.9e-11,
+      "value": "$0.58 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "5.652338815552410464",
+    "reserve": "5.652338815552410464",
+    "imbalance": false
+  }
+},
+error in pair: 0x5f6c51ddd52158d5f7a2f3f95a49a2886e4bc41b,
+
+            Error: Returned values aren't valid, did it run Out of Gas? You might also see this error if you are not using the correct ABI for the contract you are retrieving data from, requesting data from a block number that does not exist, or querying a node which is not fully synced. [object Object]
+{
+  "pairAddress": "0x101802f806c16a61f99e03b7f78ff5745fb09790",
+  "pairIndex": 41731,
+  "token0": {
+    "address": "0x3487fe681c09643edf8ba104d7539dcddfadd05a",
+    "name": "Rocket Fox",
+    "decimals": "9",
+    "balance": "3,999,193,925,126.872705641",
+    "reserve": "3,968,399,006,402.160063661",
+    "imbalance": {
+      "diff": "30,794,918,724.712792000",
+      "usdPrice": 1.2318837962927806e-10,
+      "value": "$3.79 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.128596099276373424",
+    "reserve": "0.128596099276373424",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x631cd070ef3319cda4c233b6d156fcf5a4967cfa",
+  "pairIndex": 41929,
+  "token0": {
+    "address": "0x7554e67ef1c1c2adb78c3be4911ab45c89c81d0e",
+    "name": "Buni Inu",
+    "decimals": "9",
+    "balance": "6,141,959,558.487238722",
+    "reserve": "6,069,622,655.577959312",
+    "imbalance": {
+      "diff": "72,336,902.909279230",
+      "usdPrice": 2.4739925318129707e-8,
+      "value": "$1.79 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.039500518531594417",
+    "reserve": "0.039500518531594417",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xb08f16030c2c958baadf2901de780b0430e7df85",
+  "pairIndex": 42055,
+  "token0": {
+    "address": "0xb8d8666364bb57abfcb82b10ba300965f195411b",
+    "name": "Ethereum Banks",
+    "decimals": "9",
+    "balance": "17,170,852,339.755802023",
+    "reserve": "17,121,481,095.497400092",
+    "imbalance": {
+      "diff": "49,371,244.258402300",
+      "usdPrice": 3.871786816212699e-8,
+      "value": "$1.91 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.174379523926171108",
+    "reserve": "0.174379523926171108",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xd16c2de6d54dce65f06ec9572b17d8a645076c77",
+  "pairIndex": 42094,
+  "token0": {
+    "address": "0x3c96538ea7f58298b2ee4e92ccb33eaba5f3a7bb",
+    "name": "Koala Kozy Inu",
+    "decimals": "9",
+    "balance": "49,205,518,582,508.639284304",
+    "reserve": "49,158,582,759,999.162941782",
+    "imbalance": {
+      "diff": "46,935,822,509.474320000",
+      "usdPrice": 1.642340836711503e-12,
+      "value": "$0.08 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.021237596524971245",
+    "reserve": "0.021237596524971245",
+    "imbalance": false
+  }
+},
+error in pair: 0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f,
+
+            Error: Returned error: execution reverted: Amount must be less than total reflections [object Object]
+{
+  "pairAddress": "0x892ec3c7225f34bf159f5c54e014988b6e5e0303",
+  "pairIndex": 42177,
+  "token0": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.037979770304731911",
+    "reserve": "0.037979770304731911",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xcfa5ad6fe38a7d678932ac33dd2e506dcec1ff05",
+    "name": "Ethereum Doge",
+    "decimals": "9",
+    "balance": "6,886,166,070,084.986467730",
+    "reserve": "6,795,366,943,432.370852459",
+    "imbalance": {
+      "diff": "90,799,126,652.614870000",
+      "usdPrice": 2.1246955110847486e-11,
+      "value": "$1.93 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0xa7975ae962e5e3d965325dbdcab194c4896649dd",
+  "pairIndex": 42336,
+  "token0": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.017539922826819022",
+    "reserve": "0.017539922826819022",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xd0fdcb87c8b9167b46c071faeac141697e829511",
+    "name": "Ethereum CR7",
+    "decimals": "9",
+    "balance": "118,768,852,568,538.149000956",
+    "reserve": "118,495,768,309,247.859487917",
+    "imbalance": {
+      "diff": "273,084,259,290.300020000",
+      "usdPrice": 5.627067394558192e-13,
+      "value": "$0.15 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x09271c86c5fe517d8a1bdce47a2c6c2c2e60095f",
+  "pairIndex": 42382,
+  "token0": {
+    "address": "0x1505c95a707348c2bcc75698be258891387f008b",
+    "name": "Uncle Scrooge Finance",
+    "decimals": "9",
+    "balance": "79,329,125,090.222874824",
+    "reserve": "79,324,034,726.349903013",
+    "imbalance": {
+      "diff": "5,090,363.872985088",
+      "usdPrice": 5.0364e-8,
+      "value": "$0.26 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "1.055590348863497770",
+    "reserve": "1.055590348863497770",
+    "imbalance": false
+  }
+},
+error in pair: 0x5277c3195801fd4acc92ebfd939024f08cfb697a,
+
+            Error: Returned error: execution reverted: Amount must be less than total reflections [object Object]
+{
+  "pairAddress": "0x785797ae5a987ba31805d31ff5762a6910d523dc",
+  "pairIndex": 43175,
+  "token0": {
+    "address": "0x8fbc72ffae1f14cf8910fe03ce0b8acf097a95e1",
+    "name": "Chief Shiba",
+    "decimals": "9",
+    "balance": "724,256,748,853.865692627",
+    "reserve": "724,242,182,223.084008530",
+    "imbalance": {
+      "diff": "14,566,630.781747200",
+      "usdPrice": 2.807611623659724e-8,
+      "value": "$0.41 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "5.348888784365765806",
+    "reserve": "5.348888784365765806",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x1e22c481e3daa3332c8f268a13c23b40d74f3166",
+  "pairIndex": 43220,
+  "token0": {
+    "address": "0x4f06dfecffd561c8401c4d2cf6cfdf25df4df143",
+    "name": "Moon Panda",
+    "decimals": "9",
+    "balance": "4,917,063,985.824966193",
+    "reserve": "4,825,896,429.686301156",
+    "imbalance": {
+      "diff": "91,167,556.138665980",
+      "usdPrice": 2.065232840204809e-8,
+      "value": "$1.88 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.026217407221362213",
+    "reserve": "0.026217407221362213",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x743c81fb9d4bfe0dbcd3c8b42033a06b676ece5e",
+  "pairIndex": 43274,
+  "token0": {
+    "address": "0x06eb1c5002dec993b80ec628c5dcf9d171ea675d",
+    "name": "HAVENS",
+    "decimals": "18",
+    "balance": "1,299,999.979422107959785070",
+    "reserve": "1,299,999.979422107959785070",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xc73c167e7a4ba109e4052f70d5466d0c312a344d",
+    "name": "Sanshu Inu",
+    "decimals": "9",
+    "balance": "204,434,517,457.771462221",
+    "reserve": "199,940,665,737.550034830",
+    "imbalance": {
+      "diff": "4,493,851,720.221425700",
+      "usdPrice": 2.15e-10,
+      "value": "$0.97 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0xea0ea05d4c3ee43a9eb47f4f2cb7863483a9f140",
+  "pairIndex": 43371,
+  "token0": {
+    "address": "0x71beff5533dd4c0a47b739da50c56a2dd28633fa",
+    "name": "SHELTIE INU",
+    "decimals": "18",
+    "balance": "388,027,799,931,232.884564204096287632",
+    "reserve": "388,025,545,473,850.368016508032537549",
+    "imbalance": {
+      "diff": "2,254,457,382.493097400000000000",
+      "usdPrice": 1.81e-10,
+      "value": "$0.41 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "18.401090298060670750",
+    "reserve": "18.401090298060670750",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x202e161107455203f06d5944a09409cb7404fb38",
+  "pairIndex": 43568,
+  "token0": {
+    "address": "0x282d0ad1fa03dfbdb88243b958e77349c73737d1",
+    "name": "Protector Roge",
+    "decimals": "9",
+    "balance": "13,913,132,865,152,180.232633592",
+    "reserve": "13,913,126,943,698,396.802424347",
+    "imbalance": {
+      "diff": "5,921,453,782.301934000",
+      "usdPrice": 6e-12,
+      "value": "$0.04 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "23.514743865797997166",
+    "reserve": "23.514743865797997166",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xfbf715bf5711a803af3966f31a5a9813bd6df338",
+  "pairIndex": 43639,
+  "token0": {
+    "address": "0xaa2409594dc0aef63c0f367e30f6b51149cbe613",
+    "name": "Space Doge",
+    "decimals": "9",
+    "balance": "8,719,744.035892409",
+    "reserve": "8,200,589.450098998",
+    "imbalance": {
+      "diff": "519,154.585793411",
+      "usdPrice": 2.53259e-7,
+      "value": "$0.13 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "name": "Tether USD",
+    "decimals": "6",
+    "balance": "2.894316",
+    "reserve": "2.894316",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xd215cbedc07fa8a4e8d46eab3df9dcb790a238b2",
+  "pairIndex": 43796,
+  "token0": {
+    "address": "0x9072023239dc70a121b7cb62dfca2a500d1ce559",
+    "name": "Ethereum Wet Ass Pussy",
+    "decimals": "9",
+    "balance": "29,489,551,426,804.412681071",
+    "reserve": "29,489,192,019,584.515437861",
+    "imbalance": {
+      "diff": "359,407,219.898318850",
+      "usdPrice": 2.0770784508844036e-10,
+      "value": "$0.07 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "1.611233540212107883",
+    "reserve": "1.611233540212107883",
+    "imbalance": false
+  }
+},
+error in pair: 0x498869877f18705be9a20a641d9faa47b2d9e519,
+
+            Error: Returned error: execution reverted: Amount must be less than total reflections [object Object]
+{
+  "pairAddress": "0x5069c5fbed5757642023e55458ae363b1cbf0616",
+  "pairIndex": 44214,
+  "token0": {
+    "address": "0xc73c167e7a4ba109e4052f70d5466d0c312a344d",
+    "name": "Sanshu Inu",
+    "decimals": "9",
+    "balance": "6,130,700,755,778.881662503",
+    "reserve": "6,129,289,989,031.472650591",
+    "imbalance": {
+      "diff": "1,410,766,747.409055700",
+      "usdPrice": 2.17e-10,
+      "value": "$0.31 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xddaddd4f73abc3a6552de43aba325f506232fa8a",
+    "name": "Memefund",
+    "decimals": "9",
+    "balance": "2,145,193.130553251",
+    "reserve": "2,145,193.130553251",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xdbadcaa09978acc0c91af6a81980c6cd64f715d6",
+  "pairIndex": 44233,
+  "token0": {
+    "address": "0x4764f454dff3a0121a0d61e262344ffcd5236c4b",
+    "name": "Levf Finance",
+    "decimals": "18",
+    "balance": "0.036405602638827121",
+    "reserve": "0.036040489597040968",
+    "imbalance": {
+      "diff": "0.000365113041786152",
+      "usdPrice": 62.760370899390054,
+      "value": "$0.02 🦄"
+    }
+  },
+  "token1": {
+    "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+    "name": "Dai Stablecoin",
+    "decimals": "18",
+    "balance": "1.067623268157750343",
+    "reserve": "1.067623268157750343",
+    "imbalance": false
+  }
+},
+error in pair: 0x414751b300194929204d1c18e777623d262afb2f,
+
+            Error: Returned error: execution reverted [object Object]
+{
+  "pairAddress": "0xedcf51dec31aead07c0a899aac8752f41b582712",
+  "pairIndex": 44567,
+  "token0": {
+    "address": "0x0b5261273e568ace2dced768db0a808309fdadeb",
+    "name": "PIMP MY INU",
+    "decimals": "9",
+    "balance": "18,277,667,948,315.940646814",
+    "reserve": "17,950,437,818,120.307963131",
+    "imbalance": {
+      "diff": "327,230,130,195.632500000",
+      "usdPrice": 2.5145069320107024e-13,
+      "value": "$0.08 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.001187327709081909",
+    "reserve": "0.001187327709081909",
+    "imbalance": false
+  }
+},
+error in pair: 0x6decf7f1e40f51260784ed5c2667f61ca84ca1c5,
+
+            Error: Returned error: execution reverted: Amount must be less than total Tester3 [object Object]
+error in pair: 0x30ac70e2dc5092f64031685bb23d50f782c27566,
+
+            Error: Returned error: execution reverted: Amount must be less than total reflections [object Object]
+{
+  "pairAddress": "0xf800e9bf2dcb89ca03917cd549e23c2c436d5649",
+  "pairIndex": 44958,
+  "token0": {
+    "address": "0xb3b975fc904e67858ecfee48a49d7269b3e0b949",
+    "name": "Only Fans Coins",
+    "decimals": "9",
+    "balance": "999,362,699,182.540144576",
+    "reserve": "999,361,742,402.678047986",
+    "imbalance": {
+      "diff": "956,779.862163456",
+      "usdPrice": 4.2973e-8,
+      "value": "$0.04 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "11.491271517401789352",
+    "reserve": "11.491271517401789352",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x855c2e5134bdd91e9d6d8b88916f53479942ae6a",
+  "pairIndex": 45536,
+  "token0": {
+    "address": "0x59d71082d8a5b18ebc6b653ae422ac4383cd2597",
+    "name": "Ethereum Chain Token",
+    "decimals": "9",
+    "balance": "33,216,578,434.008306815",
+    "reserve": "33,211,527,209.362298432",
+    "imbalance": {
+      "diff": "5,051,224.646008832",
+      "usdPrice": 0.00000209,
+      "value": "$10.56 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "17.259365072545496443",
+    "reserve": "17.259365072545496443",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xd65fa5e293e1d20de7ef7e9b5f7b238f005cfa84",
+  "pairIndex": 45775,
+  "token0": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "10.267097343435048963",
+    "reserve": "10.267097343435048963",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xc57bed059772b91c2421baea4e7b179319b3cc9b",
+    "name": "TERETH",
+    "decimals": "18",
+    "balance": "12,563,909,892.099099381893874951",
+    "reserve": "12,562,957,520.418701031824007278",
+    "imbalance": {
+      "diff": "952,371.680399581600000000",
+      "usdPrice": 0.0000031067983657175012,
+      "value": "$2.96 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x8ceabd2abb81fd1a6bf08ef6705396b0a5b70ddc",
+  "pairIndex": 45853,
+  "token0": {
+    "address": "0x16631e53c20fd2670027c6d53efe2642929b285c",
+    "name": "pTokens SAFEMOON",
+    "decimals": "18",
+    "balance": "155,016,254.380945079715066386",
+    "reserve": "154,810,018.106148421509044655",
+    "imbalance": {
+      "diff": "206,236.274796648500000000",
+      "usdPrice": 0.000002258392978657606,
+      "value": "$0.47 🦄"
+    }
+  },
+  "token1": {
+    "address": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
+    "name": "SHIBA INU",
+    "decimals": "18",
+    "balance": "5,394,767.364107341879267422",
+    "reserve": "5,394,767.364107341879267422",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x155e143177331d685ddd7e5a7a26280bde591a21",
+  "pairIndex": 46165,
+  "token0": {
+    "address": "0x824a50df33ac1b41afc52f4194e2e8356c17c3ac",
+    "name": "KickToken",
+    "decimals": "10",
+    "balance": "68,931.6451552370",
+    "reserve": "68,929.3883038677",
+    "imbalance": {
+      "diff": "2.2568513693",
+      "usdPrice": 0.03951785,
+      "value": "$0.09 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.124147828582232502",
+    "reserve": "0.124147828582232502",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x6b557d0ec70b69481a0977e3146bd452f8ba6599",
+  "pairIndex": 46172,
+  "token0": {
+    "address": "0x7520f4b3c0e95ec16bf0e35f387dfa422ee9153b",
+    "name": "Raindrop Token (t.me/RaindropToken)",
+    "decimals": "18",
+    "balance": "770.305334384299419123",
+    "reserve": "1.174411812120606775",
+    "imbalance": {
+      "diff": "769.130922572178900000",
+      "usdPrice": 0.04728368048600524,
+      "value": "$36.37 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.000014607449884073",
+    "reserve": "0.000014607449884073",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x1d83f6cdb07f501cffc984aa090fb172521f7da4",
+  "pairIndex": 46385,
+  "token0": {
+    "address": "0x16631e53c20fd2670027c6d53efe2642929b285c",
+    "name": "pTokens SAFEMOON",
+    "decimals": "18",
+    "balance": "6,914,463.657625676049993046",
+    "reserve": "6,632,056.599999999974492090",
+    "imbalance": {
+      "diff": "282,407.057625675600000000",
+      "usdPrice": 0.000002258392978657606,
+      "value": "$0.64 🦄"
+    }
+  },
+  "token1": {
+    "address": "0x50625b636dab619bf6af75f693dc486e56c2a694",
+    "name": "Groovy Hooman Token",
+    "decimals": "10",
+    "balance": "25,999,999.9999999999",
+    "reserve": "25,999,999.9999999999",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xf06bec28260cffc4ac85b20dfd7871b67c4d5d71",
+  "pairIndex": 46633,
+  "token0": {
+    "address": "0x1e950af2f6f8505c09f0ca42c4b38f10979cb22e",
+    "name": "BurnX 2.0",
+    "decimals": "9",
+    "balance": "1,841,527,787.604889975",
+    "reserve": "1,800,973,793.537589928",
+    "imbalance": {
+      "diff": "40,553,994.067299840",
+      "usdPrice": 9.02e-10,
+      "value": "$0.04 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "name": "USD Coin",
+    "decimals": "6",
+    "balance": "7.690477",
+    "reserve": "7.690477",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xb1b332b56eb2863bcc71661a072aaee22967623e",
+  "pairIndex": 46773,
+  "token0": {
+    "address": "0x1e950af2f6f8505c09f0ca42c4b38f10979cb22e",
+    "name": "BurnX 2.0",
+    "decimals": "9",
+    "balance": "7,624,642,766.877908651",
+    "reserve": "7,566,742,348.138697498",
+    "imbalance": {
+      "diff": "57,900,418.739211260",
+      "usdPrice": 9.02e-10,
+      "value": "$0.05 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "name": "Tether USD",
+    "decimals": "6",
+    "balance": "9.133592",
+    "reserve": "9.133592",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xce25a71df3f5a2cc08af4c07060dd4eb81b9ccf7",
+  "pairIndex": 46774,
+  "token0": {
+    "address": "0x239dc02a28a0774738463e06245544a72745d5c5",
+    "name": "Hanzo Inu",
+    "decimals": "9",
+    "balance": "544,587,604.462856123",
+    "reserve": "544,332,057.758723990",
+    "imbalance": {
+      "diff": "255,546.704132160",
+      "usdPrice": 7.259e-8,
+      "value": "$0.02 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "name": "Tether USD",
+    "decimals": "6",
+    "balance": "36.866151",
+    "reserve": "36.866151",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x15f237006bce381f573ac3d8802e6cb1eea5d4c2",
+  "pairIndex": 46784,
+  "token0": {
+    "address": "0x8f9dd4059646771d553b2e1c3c8b6be1d06abc32",
+    "name": "Koto Inu",
+    "decimals": "9",
+    "balance": "3,471,952,599.419553892",
+    "reserve": "3,426,723,363.407331087",
+    "imbalance": {
+      "diff": "45,229,236.012222460",
+      "usdPrice": 3.09883117914447e-8,
+      "value": "$1.4 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.027933135169167708",
+    "reserve": "0.027933135169167708",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xe14c6119fb2ef92e2a879c0b810ffafb338e8288",
+  "pairIndex": 46786,
+  "token0": {
+    "address": "0xb66e83e9d34e836ef234b72af218eb8196e83c92",
+    "name": "deltaV.finance",
+    "decimals": "18",
+    "balance": "82,011,744,894.671358867088573207",
+    "reserve": "82,008,147,640.026027907540729546",
+    "imbalance": {
+      "diff": "3,597,254.645321546000000000",
+      "usdPrice": 2.0045094672590296e-7,
+      "value": "$0.72 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "4.324220531177224522",
+    "reserve": "4.324220531177224522",
+    "imbalance": false
+  }
+},
+error in pair: 0xcb7d6fc0f1bae7d67be9dcdc229a21825f04a51b,
+
+            Error: Returned error: execution reverted: Amount must be less than total reflections [object Object]
+{
+  "pairAddress": "0xdae40cb431f697c4e8e73745cbedc1a42371da77",
+  "pairIndex": 46992,
+  "token0": {
+    "address": "0x3301ee63fb29f863f2333bd4466acb46cd8323e6",
+    "name": "Akita Inu",
+    "decimals": "18",
+    "balance": "7,776,198,408.418305728587901083",
+    "reserve": "7,776,198,408.418305728587901083",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xc73c167e7a4ba109e4052f70d5466d0c312a344d",
+    "name": "Sanshu Inu",
+    "decimals": "9",
+    "balance": "46,940,305,441,136.168993466",
+    "reserve": "46,933,046,533,296.122956070",
+    "imbalance": {
+      "diff": "7,258,907,840.041976000",
+      "usdPrice": 2.15e-10,
+      "value": "$1.56 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0xacd9d6a5c42f528ceaa6984498b282971fedb8b9",
+  "pairIndex": 47025,
+  "token0": {
+    "address": "0x3877de5f6f091c3500553b9b61d654ec4190fba9",
+    "name": "COSBY TOKEN",
+    "decimals": "9",
+    "balance": "245,727,942.894918702",
+    "reserve": "245,585,262.153882942",
+    "imbalance": {
+      "diff": "142,680.741035744",
+      "usdPrice": 0.00008008812408720864,
+      "value": "$11.43 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "5.173841765759443771",
+    "reserve": "5.173841765759443771",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xf5ddd5f85f52681199c315ec902cf3608e9ffaca",
+  "pairIndex": 47260,
+  "token0": {
+    "address": "0x12554878017f5dc82cc0ed4a3935d1f34fdb7619",
+    "name": "Xoloitzcuintle",
+    "decimals": "9",
+    "balance": "1,643,590,751.499650974",
+    "reserve": "1,472,217,796.046618220",
+    "imbalance": {
+      "diff": "171,372,955.453032960",
+      "usdPrice": 5.076116698482546e-8,
+      "value": "$8.7 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.019658319141594442",
+    "reserve": "0.019658319141594442",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xb4e38c5512ce7703146c47407b6332d4a52c362c",
+  "pairIndex": 47434,
+  "token0": {
+    "address": "0xb1f4b66104353ec63d8d59d3da42c0b4fb06e7f3",
+    "name": "Floki Inu",
+    "decimals": "9",
+    "balance": "547,381,904.988808069",
+    "reserve": "460,674,086.350925031",
+    "imbalance": {
+      "diff": "86,707,818.637883000",
+      "usdPrice": 2.4921061544034067e-7,
+      "value": "$21.61 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "name": "Tether USD",
+    "decimals": "6",
+    "balance": "36.549340",
+    "reserve": "36.549340",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xe49020932bc6d8cccbd2d08f27d9beec99067001",
+  "pairIndex": 47995,
+  "token0": {
+    "address": "0x389999216860ab8e0175387a0c90e5c52522c945",
+    "name": "FEGtoken",
+    "decimals": "9",
+    "balance": "54,895,036,495.871276663",
+    "reserve": "54,676,620,296.206982536",
+    "imbalance": {
+      "diff": "218,416,199.664295940",
+      "usdPrice": 3.177e-9,
+      "value": "$0.69 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xb14ebf566511b9e6002bb286016ab2497b9b9c9d",
+    "name": "Hypersign Identity Token",
+    "decimals": "18",
+    "balance": "1,170.790124357106887629",
+    "reserve": "1,170.790124357106887629",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x97b4a85a8b479b85489d6f86562dd38564b828e9",
+  "pairIndex": 48069,
+  "token0": {
+    "address": "0x106552c11272420aad5d7e94f8acab9095a6c952",
+    "name": "Keanu Inu",
+    "decimals": "9",
+    "balance": "30,681,262,286,405.419397119",
+    "reserve": "30,673,402,191,395.779075362",
+    "imbalance": {
+      "diff": "7,860,095,009.641464000",
+      "usdPrice": 4.7e-11,
+      "value": "$0.37 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc73c167e7a4ba109e4052f70d5466d0c312a344d",
+    "name": "Sanshu Inu",
+    "decimals": "9",
+    "balance": "6,627,691,333,515.723056486",
+    "reserve": "6,626,984,773,053.758554183",
+    "imbalance": {
+      "diff": "706,560,461.964836900",
+      "usdPrice": 2.19e-10,
+      "value": "$0.15 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0xeef2260bb654975ad9561898cc91c6392e9938c1",
+  "pairIndex": 48071,
+  "token0": {
+    "address": "0x106552c11272420aad5d7e94f8acab9095a6c952",
+    "name": "Keanu Inu",
+    "decimals": "9",
+    "balance": "15,520,705,396,800.731401378",
+    "reserve": "15,502,905,341,255.354540021",
+    "imbalance": {
+      "diff": "17,800,055,545.376276000",
+      "usdPrice": 4.7e-11,
+      "value": "$0.84 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xddaddd4f73abc3a6552de43aba325f506232fa8a",
+    "name": "Memefund",
+    "decimals": "9",
+    "balance": "648,833.624979660",
+    "reserve": "648,833.624979660",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x4a488d7a4f2240e4b1798c750e5bf8106e2acf92",
+  "pairIndex": 48380,
+  "token0": {
+    "address": "0x9358e3a79d428c7708da22a5bd085159f6818d12",
+    "name": "Tenshi",
+    "decimals": "9",
+    "balance": "996,461,413,729.285959634",
+    "reserve": "996,460,909,975.751934629",
+    "imbalance": {
+      "diff": "503,753.534078976",
+      "usdPrice": 6.764697695267847e-8,
+      "value": "$0.03 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "17.731741043418081788",
+    "reserve": "17.731741043418081788",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xea3643debebe3a635a5e16a9779eb07b3e0d615e",
+  "pairIndex": 48685,
+  "token0": {
+    "address": "0x9358e3a79d428c7708da22a5bd085159f6818d12",
+    "name": "Tenshi",
+    "decimals": "9",
+    "balance": "29,242,608,461.346789630",
+    "reserve": "29,242,261,518.995716239",
+    "imbalance": {
+      "diff": "346,942.351073280",
+      "usdPrice": 6.764697695267847e-8,
+      "value": "$0.02 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xa2b4c0af19cc16a6cfacce81f192b024d625817d",
+    "name": "Kishu Inu",
+    "decimals": "9",
+    "balance": "691,988,717,596.420298211",
+    "reserve": "691,509,014,626.017579743",
+    "imbalance": {
+      "diff": "479,702,970.402734100",
+      "usdPrice": 2.377e-9,
+      "value": "$1.14 🦄"
+    }
+  }
+},
+error in pair: 0xfc1c9d95968d63d40902247df58758c0501290bb,
+
+            Error: Returned values aren't valid, did it run Out of Gas? You might also see this error if you are not using the correct ABI for the contract you are retrieving data from, requesting data from a block number that does not exist, or querying a node which is not fully synced. [object Object]
+{
+  "pairAddress": "0x46b3949b3c7f700aad7936e077b0612d67857171",
+  "pairIndex": 49941,
+  "token0": {
+    "address": "0x640a8c704e0e05bf6d884fa1e39872fb80a10af0",
+    "name": "Bocker Inu",
+    "decimals": "9",
+    "balance": "17,925,859,678,588.182688010",
+    "reserve": "17,923,700,894,764.533973455",
+    "imbalance": {
+      "diff": "2,158,783,823.649702000",
+      "usdPrice": 3.314219477119984e-11,
+      "value": "$0.07 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xd52c73c15e827701db5c4961c0f8680d0db7d3a0",
+    "name": "XYJ",
+    "decimals": "18",
+    "balance": "2,014,569,633.405474194368994142",
+    "reserve": "2,014,569,633.405474194368994142",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x9a6ef76504b719bc11b29ef1b9f0e82f64582f76",
+  "pairIndex": 50418,
+  "token0": {
+    "address": "0x398dc1c12a268b657abd0cd88999156228acb91a",
+    "name": "PEACOCKCOIN",
+    "decimals": "9",
+    "balance": "11,927,631,421,845,212.361183889",
+    "reserve": "11,927,035,095,015,012.632547437",
+    "imbalance": {
+      "diff": "596,326,830,197.690100000",
+      "usdPrice": 3e-12,
+      "value": "$1.79 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "8.761792050289510207",
+    "reserve": "8.761792050289510207",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x01f12e66c1da28802f84f069defdbc2450d27657",
+  "pairIndex": 50787,
+  "token0": {
+    "address": "0x0e3f570ff5b2ce0f6b9111da2825b1232625858b",
+    "name": "Doge Treats | https://t.me/dogetreatsoriginal",
+    "decimals": "9",
+    "balance": "89,446,693,250,428,600.996858819",
+    "reserve": "89,446,573,960,764,850.453170555",
+    "imbalance": {
+      "diff": "119,289,663,749.286260000",
+      "usdPrice": 5.339959468837619e-13,
+      "value": "$0.06 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "12.564476303606734419",
+    "reserve": "12.564476303606734419",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x46372a552680a8e4ade648ca22041922a45e8385",
+  "pairIndex": 50902,
+  "token0": {
+    "address": "0x61af4eea730e8637749c9eea2f0c59e18b19fdf3",
+    "name": "BabyEevee",
+    "decimals": "9",
+    "balance": "5,460,080,221,451,246.233103713",
+    "reserve": "5,435,400,228,432,357.403687155",
+    "imbalance": {
+      "diff": "24,679,993,018,889.280000000",
+      "usdPrice": 2.6354547404522812e-14,
+      "value": "$0.65 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.037681641286320915",
+    "reserve": "0.037681641286320915",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xae93520b46b096a4143991b386e26f04000e74a3",
+  "pairIndex": 51269,
+  "token0": {
+    "address": "0xbc9fd74dfad0b3a493c256aa4543c83259146edd",
+    "name": "twitter.com/DaddyMojito",
+    "decimals": "9",
+    "balance": "56,131,386,835,808.051892108",
+    "reserve": "55,855,142,021,528.867916529",
+    "imbalance": {
+      "diff": "276,244,814,279.183700000",
+      "usdPrice": 9.016143124477048e-13,
+      "value": "$0.25 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.013247278843833427",
+    "reserve": "0.013247278843833427",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xd83f7fb5e42e27a9ebe2cf42d0c418d03dffa763",
+  "pairIndex": 51513,
+  "token0": {
+    "address": "0x92c8525d925d2eb6a3108458d2cdb3a795d457d2",
+    "name": "Holographic Doge",
+    "decimals": "9",
+    "balance": "207,065,275,858,347.185451091",
+    "reserve": "207,059,514,894,934.955538672",
+    "imbalance": {
+      "diff": "5,760,963,412.230144000",
+      "usdPrice": 1.25e-10,
+      "value": "$0.72 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "6.302943606324727557",
+    "reserve": "6.302943606324727557",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x8bea30a6a03cb5daf2089eafc87407ad9f48595c",
+  "pairIndex": 51586,
+  "token0": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.001499999999999991",
+    "reserve": "0.001499999999999991",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xecdb8095e62b063ab58a50d49743ef45c5cdac01",
+    "name": "No1 Finance",
+    "decimals": "18",
+    "balance": "0.143624643240744913",
+    "reserve": "0.140370665632787190",
+    "imbalance": {
+      "diff": "0.003253977607957728",
+      "usdPrice": 54.95951186202232,
+      "value": "$0.18 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0xb3f7ccdb38dc51dca399f4c27a8344276bcd855a",
+  "pairIndex": 52092,
+  "token0": {
+    "address": "0x7ae7acc3b3a9679eae7e4f7495ead1429ac7de7e",
+    "name": "Archangel",
+    "decimals": "9",
+    "balance": "11,923,628,190,769,800.115811206",
+    "reserve": "11,921,793,881,010,556.968530604",
+    "imbalance": {
+      "diff": "1,834,309,759,242.474600000",
+      "usdPrice": 2.88162762572884e-12,
+      "value": "$5.29 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "9.036956426841123471",
+    "reserve": "9.036956426841123471",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x547b2416b792d16a7094ec052549e856b7e866a1",
+  "pairIndex": 52128,
+  "token0": {
+    "address": "0x7f055ac6469daddd819251e93744e4a471c0980a",
+    "name": "NBAFloki",
+    "decimals": "9",
+    "balance": "771,765,183,951.921426515",
+    "reserve": "771,566,506,359.587304313",
+    "imbalance": {
+      "diff": "198,677,592.334139400",
+      "usdPrice": 1.5161078567605554e-8,
+      "value": "$3.01 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "3.077132416257348165",
+    "reserve": "3.077132416257348165",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x591b1c81594bc14aa0a768c1bc0e2e3056cfb970",
+  "pairIndex": 52171,
+  "token0": {
+    "address": "0x6ac665c0de9a6ca72b85757b141aa9c428828aca",
+    "name": "ROGUE",
+    "decimals": "8",
+    "balance": "539,482.63611646",
+    "reserve": "539,481.68413456",
+    "imbalance": {
+      "diff": "0.95198190",
+      "usdPrice": 0.294969,
+      "value": "$0.28 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "41.753961417142769588",
+    "reserve": "41.753961417142769588",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xe7b67149a31236f9b41c57ee4e510407a1c2a06c",
+  "pairIndex": 52307,
+  "token0": {
+    "address": "0x8b3192f5eebd8579568a2ed41e6feb402f93f73f",
+    "name": "Saitama Inu",
+    "decimals": "9",
+    "balance": "67,528,855,505.093585980",
+    "reserve": "67,514,747,059.895401622",
+    "imbalance": {
+      "diff": "14,108,445.198180352",
+      "usdPrice": 4.7805e-8,
+      "value": "$0.67 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc1bfccd4c29813ede019d00d2179eea838a67703",
+    "name": "Luffy Inu",
+    "decimals": "9",
+    "balance": "1,865,253,499,502.616435137",
+    "reserve": "1,864,886,862,066.188488456",
+    "imbalance": {
+      "diff": "366,637,436.427829250",
+      "usdPrice": 1.29e-9,
+      "value": "$0.47 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x9e32f8f5c51ec90bd89f86a5c1db7ebbde911052",
+  "pairIndex": 52600,
+  "token0": {
+    "address": "0x727e8260877f8507f8d61917e9778b6af8491e63",
+    "name": "Charizard Inu",
+    "decimals": "9",
+    "balance": "7,264,096,602,160,405.537628447",
+    "reserve": "7,264,056,498,932,396.976833729",
+    "imbalance": {
+      "diff": "40,103,228,008.212460000",
+      "usdPrice": 8e-12,
+      "value": "$0.32 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "15.594058575604087788",
+    "reserve": "15.594058575604087788",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xab24eaa9d7661422e2eb33dcf050de328b783cc4",
+  "pairIndex": 52735,
+  "token0": {
+    "address": "0x0ba7c281d7b84b80dd0569f7882c7218ecc58787",
+    "name": "Uchiha Finance",
+    "decimals": "9",
+    "balance": "888,348,435,360,905.005533129",
+    "reserve": "874,807,652,383,958.884198623",
+    "imbalance": {
+      "diff": "13,540,782,976,946.089000000",
+      "usdPrice": 8.379587023544896e-14,
+      "value": "$1.13 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.019283146878128740",
+    "reserve": "0.019283146878128740",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x2c87939a6ce0fe88ba701b1d4e4e7a0d6f8f7277",
+  "pairIndex": 52857,
+  "token0": {
+    "address": "0x23906031870f2f48f8a5cf4a6a1092bb5dc84cd6",
+    "name": "Bop To the Top",
+    "decimals": "9",
+    "balance": "2,837,820,221,023.998640770",
+    "reserve": "2,787,395,603,648.303563808",
+    "imbalance": {
+      "diff": "50,424,617,375.694850000",
+      "usdPrice": 2.3828546072176314e-12,
+      "value": "$0.12 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.001747184930315119",
+    "reserve": "0.001747184930315119",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xc805fecf60dd5cca446c5f84b885353e772cb56f",
+  "pairIndex": 52869,
+  "token0": {
+    "address": "0x3a513edbea1589f0263e3563bb23910dd77ce3da",
+    "name": "Tempest",
+    "decimals": "9",
+    "balance": "231,030,973,035.243102504",
+    "reserve": "227,103,718,937.574599647",
+    "imbalance": {
+      "diff": "3,927,254,097.668505600",
+      "usdPrice": 2.2026935700559e-10,
+      "value": "$0.87 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.013158944354878519",
+    "reserve": "0.013158944354878519",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x75c8b1d37ef2cf6ba2b6205ad0b05cae21011fc7",
+  "pairIndex": 52880,
+  "token0": {
+    "address": "0x45c955ff93565ad6b5ef53ad30e172974d90e307",
+    "name": "Gogeta Metaverse",
+    "decimals": "9",
+    "balance": "83,120,190,786,827.087918829",
+    "reserve": "83,109,627,475,080.520659943",
+    "imbalance": {
+      "diff": "10,563,311,746.569732000",
+      "usdPrice": 5.1870540050347614e-11,
+      "value": "$0.55 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "1.134004624601642190",
+    "reserve": "1.134004624601642190",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x872e0ad1079e826e9572742dadbc53e8cfe6ec0a",
+  "pairIndex": 52887,
+  "token0": {
+    "address": "0x65651deb1cdf91f3b2fad45528bf4d15f6867b7f",
+    "name": "Moonarc 360",
+    "decimals": "9",
+    "balance": "167,803,557,805.282107635",
+    "reserve": "164,964,222,359.062443397",
+    "imbalance": {
+      "diff": "2,839,335,446.219653000",
+      "usdPrice": 8.013413336027066e-10,
+      "value": "$2.28 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.034773630006403892",
+    "reserve": "0.034773630006403892",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x39e0454f05b8a353d3ebf5ac0ff0f20830714453",
+  "pairIndex": 52897,
+  "token0": {
+    "address": "0x74e4684f6d51b93c6d5d234553be78c983703ff5",
+    "name": "Husky inu",
+    "decimals": "9",
+    "balance": "155,350,393,710,851.118922186",
+    "reserve": "152,676,555,375,691.354075439",
+    "imbalance": {
+      "diff": "2,673,838,335,159.737000000",
+      "usdPrice": 2.738280819724056e-14,
+      "value": "$0.07 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.001099747688310974",
+    "reserve": "0.001099747688310974",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x1a9fe447254540696f34603550da8e23bb92c01b",
+  "pairIndex": 52934,
+  "token0": {
+    "address": "0xbfbcbf3195d884754269cd960de67bdcc32c17b6",
+    "name": "Shibado inu",
+    "decimals": "9",
+    "balance": "10,849,870,410.525844441",
+    "reserve": "10,835,384,238.526466022",
+    "imbalance": {
+      "diff": "14,486,171.999377408",
+      "usdPrice": 2.5434496050435926e-9,
+      "value": "$0.04 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.007249535386365377",
+    "reserve": "0.007249535386365377",
+    "imbalance": false
+  }
+},
+error in pair: 0x14e97f743e2634078106d2e9b15663fa4dcf9b23,
+
+            Error: Returned error: execution reverted [object Object]
+error in pair: 0x6cd3812550938198a6d45c5b8718f4f72fe59785,
+
+            Error: Returned error: execution reverted [object Object]
+error in pair: 0x464d64fbf77228ed62cdb85d3e88b619a4ff47c1,
+
+            Error: Returned error: execution reverted [object Object]
+{
+  "pairAddress": "0x2d88dd9e282c72d93a2230c5cc324bb4f717010c",
+  "pairIndex": 53318,
+  "token0": {
+    "address": "0x1a87077c4f834884691b8ba4fc808d2ec93a9f30",
+    "name": "Winry Inu",
+    "decimals": "9",
+    "balance": "84,531,306,398,491,310.240116382",
+    "reserve": "84,529,014,754,774,850.140641552",
+    "imbalance": {
+      "diff": "2,291,643,716,456.874500000",
+      "usdPrice": 1e-12,
+      "value": "$2.29 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "14.047122688761301084",
+    "reserve": "14.047122688761301084",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xf834a5a2ca8184d5330ccdafbc1a65e52bc2d508",
+  "pairIndex": 53752,
+  "token0": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.016802478111539122",
+    "reserve": "0.016802478111539122",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xd7f3f18e01ca63f40f3057045878655fd7a2e980",
+    "name": "Polygaland",
+    "decimals": "9",
+    "balance": "1,245,182.991433514",
+    "reserve": "1,237,854.740300283",
+    "imbalance": {
+      "diff": "7,328.251133231",
+      "usdPrice": 0.00005160133455972645,
+      "value": "$0.38 🦄"
+    }
+  }
+},
+error in pair: 0x87abc9e15d402e7744af8964a2f9c66371758876,
+
+            Error: Returned error: execution reverted [object Object]
+{
+  "pairAddress": "0x1313aec56c55468309aa03b466f135fb1ee03d92",
+  "pairIndex": 53998,
+  "token0": {
+    "address": "0x3ea50b7ef6a7eaf7e966e2cb72b519c16557497c",
+    "name": "Rocket Bunny",
+    "decimals": "9",
+    "balance": "1,024,043,436,909,389.080049693",
+    "reserve": "1,023,948,137,860,894.772859712",
+    "imbalance": {
+      "diff": "95,299,048,494.308790000",
+      "usdPrice": 1e-12,
+      "value": "$0.1 🦄"
+    }
+  },
+  "token1": {
+    "address": "0x8254e26e453eb5abd29b3c37ac9e8da32e5d3299",
+    "name": "RBX",
+    "decimals": "18",
+    "balance": "8,505.838790630704785309",
+    "reserve": "8,505.838790630704785309",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x05c1f864757b3365ded8b45e5dfcb27105249b97",
+  "pairIndex": 54065,
+  "token0": {
+    "address": "0x05ec93c0365baaeabf7aeffb0972ea7ecdd39cf1",
+    "name": "Aave interest bearing BAT",
+    "decimals": "18",
+    "balance": "9,011.678316331109847080",
+    "reserve": "9,010.332668398095453832",
+    "imbalance": {
+      "diff": "1.345647933014409200",
+      "usdPrice": 1.24,
+      "value": "$1.67 🦄"
+    }
+  },
+  "token1": {
+    "address": "0x30bcd71b8d21fe830e493b30e90befba29de9114",
+    "name": "Penguin Party Fish",
+    "decimals": "18",
+    "balance": "5,262.415650000000000756",
+    "reserve": "5,262.415650000000000756",
+    "imbalance": false
+  }
+},
+error in pair: 0x21085c406e3e9e4dbf68640e91757244f91ed7c7,
+
+            Error: Returned error: execution reverted [object Object]
+{
+  "pairAddress": "0x941f0c142f784f15d7dc0ecc9265669485b6801f",
+  "pairIndex": 54164,
+  "token0": {
+    "address": "0x3ec8798b81485a254928b70cda1cf0a2bb0b74d7",
+    "name": "Gro DAO Token",
+    "decimals": "18",
+    "balance": "132,178.208699470681382197",
+    "reserve": "132,178.208699470681382197",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xf0a93d4994b3d98fb5e3a2f90dbc2d69073cb86b",
+    "name": "PWRD Stablecoin",
+    "decimals": "18",
+    "balance": "506,018.808745712886392268",
+    "reserve": "506,017.039054815989105334",
+    "imbalance": {
+      "diff": "1.769690896900554800",
+      "usdPrice": 0.989162,
+      "value": "$1.75 🦄"
+    }
+  }
+},
+error in pair: 0x1d60d4029864f0bb43d2abd893d149d2cf0f3de6,
+
+            Error: Returned error: execution reverted [object Object]
+{
+  "pairAddress": "0x4401849dcd747673002ddfa97d37028e934e80ce",
+  "pairIndex": 54167,
+  "token0": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "5.745445011889596087",
+    "reserve": "5.745445011889596087",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xd19f9858de386c938d1b832a5b87f80a178fe28d",
+    "name": "Yandere Shiba ♥",
+    "decimals": "9",
+    "balance": "345,432,373.925876547",
+    "reserve": "345,409,873.816533536",
+    "imbalance": {
+      "diff": "22,500.109343040",
+      "usdPrice": 0.00006766,
+      "value": "$1.52 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x83a02859886fa12619a95b0b56794a7186598619",
+  "pairIndex": 54270,
+  "token0": {
+    "address": "0x4d67edef87a5ff910954899f4e5a0aaf107afd42",
+    "name": "BlueSparrowToken",
+    "decimals": "9",
+    "balance": "1,736,501,431,631,314.167198390",
+    "reserve": "1,736,501,246,856,816.823877567",
+    "imbalance": {
+      "diff": "184,774,497.247690750",
+      "usdPrice": 3.14e-10,
+      "value": "$0.06 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "136.682975811876015027",
+    "reserve": "136.682975811876015027",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xe6e1f4f9b0303ca3878a110061c0ec9b84fddd03",
+  "pairIndex": 54388,
+  "token0": {
+    "address": "0x1e2f15302b90edde696593607b6bd444b64e8f02",
+    "name": "Shiryo-Inu",
+    "decimals": "9",
+    "balance": "14,675,534,336,550,784.849229066",
+    "reserve": "14,675,521,124,256,528.058833846",
+    "imbalance": {
+      "diff": "13,212,294,256.992977000",
+      "usdPrice": 4.2e-11,
+      "value": "$0.55 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "158.391794783683429206",
+    "reserve": "158.391794783683429206",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xeb18b071b2f25e3ecba42f14074818eef42dade4",
+  "pairIndex": 54649,
+  "token0": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "9.127925162599022194",
+    "reserve": "9.127925162599022194",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xef66f8c4224b423888a64f0157e56756459c2cf8",
+    "name": "shibelon MARS",
+    "decimals": "9",
+    "balance": "3,346,109,983.598011029",
+    "reserve": "3,346,107,896.139399237",
+    "imbalance": {
+      "diff": "2,087.458611712",
+      "usdPrice": 0.00001018,
+      "value": "$0.02 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x57304755a9f4a5aa791aedec1e2f87832a159eda",
+  "pairIndex": 55161,
+  "token0": {
+    "address": "0x8b2ca226f78a8f35e97e944a5468af85c0a6c616",
+    "name": "BATMAN",
+    "decimals": "9",
+    "balance": "34,582,600,529.235571046",
+    "reserve": "34,582,062,306.803415203",
+    "imbalance": {
+      "diff": "538,222.432153600",
+      "usdPrice": 4.79584e-7,
+      "value": "$0.26 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "4.429491593920027136",
+    "reserve": "4.429491593920027136",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x58467ca97cb8822fa246713071dc68bd9f45b547",
+  "pairIndex": 55166,
+  "token0": {
+    "address": "0x2ea4d095bdb16587e39fca3efab56011d14147bd",
+    "name": "ShibaRocket",
+    "decimals": "9",
+    "balance": "8,491,508,067,129,570.458906424",
+    "reserve": "8,155,192,945,447,561.346581974",
+    "imbalance": {
+      "diff": "336,315,121,682,009.500000000",
+      "usdPrice": 1.6869910694004766e-14,
+      "value": "$5.67 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.036190096772364225",
+    "reserve": "0.036190096772364225",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x41358b76392bd66942be357a0305b5ce91fd5f1c",
+  "pairIndex": 55204,
+  "token0": {
+    "address": "0x9e5bd9d9fad182ff0a93ba8085b664bcab00fa68",
+    "name": "Dinger Token",
+    "decimals": "9",
+    "balance": "1,210,848,741.647710412",
+    "reserve": "1,210,825,403.705495009",
+    "imbalance": {
+      "diff": "23,337.942215424",
+      "usdPrice": 0.0000087,
+      "value": "$0.2 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xa91c82b6933105c23298e631a0c1be751d239162",
+    "name": "Seed Of The Universe",
+    "decimals": "18",
+    "balance": "0.005579382302261422",
+    "reserve": "0.005579382302261422",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x318a1794f612f018b5591306dfd60913087c958a",
+  "pairIndex": 55208,
+  "token0": {
+    "address": "0x07d67477d5a40b9143f39adbbfb09d3049d3bf1a",
+    "name": "Leap Token",
+    "decimals": "9",
+    "balance": "180,311,544,178.740086098",
+    "reserve": "180,256,621,042.522502449",
+    "imbalance": {
+      "diff": "54,923,136.217612290",
+      "usdPrice": 5.863860205379364e-8,
+      "value": "$3.22 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "2.780465779181475585",
+    "reserve": "2.780465779181475585",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x6f6cde8ee3c6232dd32a80f672940ad49780ddc7",
+  "pairIndex": 55303,
+  "token0": {
+    "address": "0x8b3192f5eebd8579568a2ed41e6feb402f93f73f",
+    "name": "Saitama Inu",
+    "decimals": "9",
+    "balance": "82,401,898,278.333965322",
+    "reserve": "82,385,252,787.726707311",
+    "imbalance": {
+      "diff": "16,645,490.607259648",
+      "usdPrice": 4.812e-8,
+      "value": "$0.8 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xa91c82b6933105c23298e631a0c1be751d239162",
+    "name": "Seed Of The Universe",
+    "decimals": "18",
+    "balance": "0.001537207253765589",
+    "reserve": "0.001537207253765589",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xa6c6b56c70abf14ed63edaffb45bb82a64454a77",
+  "pairIndex": 55310,
+  "token0": {
+    "address": "0x7b32e70e8d73ac87c1b342e063528b2930b15ceb",
+    "name": "ROBO INU",
+    "decimals": "9",
+    "balance": "1,272,765,830,510,950.584326148",
+    "reserve": "1,272,763,489,785,869.096838665",
+    "imbalance": {
+      "diff": "2,340,725,081.371574300",
+      "usdPrice": 1.3e-10,
+      "value": "$0.3 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "44.630388611223692586",
+    "reserve": "44.630388611223692586",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x2fb70e38b409df33233c7a7ab010a2848a59b349",
+  "pairIndex": 55378,
+  "token0": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "16.701439595981523709",
+    "reserve": "16.701439595981523709",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xcf58b4e4863c0d085bd1c65b3f2932e261547fab",
+    "name": "Lorde Edge",
+    "decimals": "9",
+    "balance": "73,990,267,778.433771957",
+    "reserve": "73,990,218,239.732260702",
+    "imbalance": {
+      "diff": "49,538.701524992",
+      "usdPrice": 8.44169e-7,
+      "value": "$0.04 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0x50b4c60374c60b84397265cf33a59898784147b2",
+  "pairIndex": 55428,
+  "token0": {
+    "address": "0xb1f5d869323e50d1981c88e3e5a2b720a0e4bc02",
+    "name": "JokerToken",
+    "decimals": "9",
+    "balance": "5,264,375,370.399573755",
+    "reserve": "5,264,158,639.772380470",
+    "imbalance": {
+      "diff": "216,730.627193856",
+      "usdPrice": 0.00000216,
+      "value": "$0.47 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "3.044076300720637094",
+    "reserve": "3.044076300720637094",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xc76f0d493f2591e44acbb7af0d87b1f8d353d761",
+  "pairIndex": 55484,
+  "token0": {
+    "address": "0xb349f6d7957ba48d652396d63562bcf9fcb5790d",
+    "name": "Snorlax Inu",
+    "decimals": "9",
+    "balance": "1,152,545,460.987493271",
+    "reserve": "1,141,641,007.393502107",
+    "imbalance": {
+      "diff": "10,904,453.593991168",
+      "usdPrice": 6.092837337850296e-8,
+      "value": "$0.66 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.018297504567299807",
+    "reserve": "0.018297504567299807",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xcd3ce436f2fcb4b3123ba9f473fb65c05de61ad8",
+  "pairIndex": 55514,
+  "token0": {
+    "address": "0x07c15ad2bed2002dac479e7971a40598541a6188",
+    "name": "AsurasFinance",
+    "decimals": "9",
+    "balance": "4,398,826,297,971,092.013893236",
+    "reserve": "4,382,413,455,282,985.078550895",
+    "imbalance": {
+      "diff": "16,412,842,688,106.847000000",
+      "usdPrice": 1.25030331162595e-14,
+      "value": "$0.21 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.014413566299939072",
+    "reserve": "0.014413566299939072",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xbcfdee2ee14b9a1b7411454332af7d30048fff7c",
+  "pairIndex": 55680,
+  "token0": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "105.489872306926560788",
+    "reserve": "105.489872306926560788",
+    "imbalance": false
+  },
+  "token1": {
+    "address": "0xf98e38c3f287304a1f2d4879e741d2bf55474e84",
+    "name": "SHAMAN KING INU",
+    "decimals": "9",
+    "balance": "41,350,818,707,524,184.238388778",
+    "reserve": "41,350,394,442,846,310.705124653",
+    "imbalance": {
+      "diff": "424,264,677,869.683200000",
+      "usdPrice": 1.1e-11,
+      "value": "$4.67 🦄"
+    }
+  }
+},
+{
+  "pairAddress": "0xbf0a00174aead2eaf22c8b6b17183cd4eb16b88b",
+  "pairIndex": 55687,
+  "token0": {
+    "address": "0x020b2c546cfb5049d2b391c95ca52f590997f719",
+    "name": "Probably Something",
+    "decimals": "9",
+    "balance": "551,229,579,564.965943260",
+    "reserve": "551,164,881,150.645083865",
+    "imbalance": {
+      "diff": "64,698,414.320844800",
+      "usdPrice": 2.0175560862961554e-8,
+      "value": "$1.31 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "2.925161673536325701",
+    "reserve": "2.925161673536325701",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xc1bcf4550be5e89f507184a088399321a651fe2a",
+  "pairIndex": 55943,
+  "token0": {
+    "address": "0x725056b16f53dbd2fbf7ab5ce11aa9abb5d7e120",
+    "name": "Pump and Dump",
+    "decimals": "9",
+    "balance": "13,234,656,171.978003497",
+    "reserve": "12,719,838,973.138459716",
+    "imbalance": {
+      "diff": "514,817,198.839543800",
+      "usdPrice": 1.6778059906507914e-8,
+      "value": "$8.64 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.056139181246567475",
+    "reserve": "0.056139181246567475",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xf3689417f23030fb352d1200e69f37c03a17ca68",
+  "pairIndex": 55986,
+  "token0": {
+    "address": "0x086c2263e17b06cb5399c997c6aef3c93f789c82",
+    "name": "Follow Friday",
+    "decimals": "9",
+    "balance": "20,019,978,299.780698122",
+    "reserve": "20,019,425,025.135485720",
+    "imbalance": {
+      "diff": "553,274.645213184",
+      "usdPrice": 8.2445e-8,
+      "value": "$0.05 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.000000000000000001",
+    "reserve": "0.000000000000000001",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x88c40b9fdd710eb309558110337d80ef303283a2",
+  "pairIndex": 56465,
+  "token0": {
+    "address": "0x17072d213d6679db6a8cf2f82f67be3e22f15d5b",
+    "name": "Hello Wagmi",
+    "decimals": "9",
+    "balance": "6,904,215,443,867,433.659796654",
+    "reserve": "6,820,303,127,099,153.624149642",
+    "imbalance": {
+      "diff": "83,912,316,768,279.870000000",
+      "usdPrice": 1.8736646100118142e-14,
+      "value": "$1.57 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.033615397522040109",
+    "reserve": "0.033615397522040109",
+    "imbalance": false
+  }
+},
+error in pair: 0xc9c2105858a5edc693369d434b833712e0773d5a,
+
+            Error: Returned error: execution reverted [object Object]
+{
+  "pairAddress": "0x7d57f7e1d684228bc55897e37fbf7a137b37bfbb",
+  "pairIndex": 56512,
+  "token0": {
+    "address": "0x9ab3e0560ec1f5c054849175f2e1a5b004ee4c8e",
+    "name": "hello SER",
+    "decimals": "9",
+    "balance": "34,038,093,294,501,056.064694501",
+    "reserve": "34,036,665,635,236,950.218318511",
+    "imbalance": {
+      "diff": "1,427,659,264,105.098800000",
+      "usdPrice": 5.379151909590162e-13,
+      "value": "$0.77 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "4.816189180850467432",
+    "reserve": "4.816189180850467432",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xd94da525794268e89725d04ed897ed00917a7553",
+  "pairIndex": 56629,
+  "token0": {
+    "address": "0x849ba2278cdae7fa7006c0661fea1c35d5af3336",
+    "name": "The Citadel",
+    "decimals": "9",
+    "balance": "118,410,614,394,679,490.827369300",
+    "reserve": "118,410,571,873,953,300.803798930",
+    "imbalance": {
+      "diff": "42,520,726,209.552190000",
+      "usdPrice": 2e-12,
+      "value": "$0.09 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "69.259605328662069713",
+    "reserve": "69.259605328662069713",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x0e20b955b96423bb169a9578b9efa9b9d9cbf621",
+  "pairIndex": 56707,
+  "token0": {
+    "address": "0x9e6e547f74b5ed8dda66c421ac3a1a4711afe6e6",
+    "name": "Kakashi-Inu",
+    "decimals": "9",
+    "balance": "7,694,504,980,975,351.710938838",
+    "reserve": "7,598,421,801,440,469.953246447",
+    "imbalance": {
+      "diff": "96,083,179,534,881.400000000",
+      "usdPrice": 1.5224247432285208e-14,
+      "value": "$1.46 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.030430000000000001",
+    "reserve": "0.030430000000000001",
+    "imbalance": false
+  }
+},
+error in pair: 0x237a7229fd15f305b620a8ef7c1cbbfa34253305,
+
+            Error: Returned error: execution reverted [object Object]
+error in pair: 0x9d198a12b278e0b7acdce039dafd0b7dcebbbb2f,
+
+            Error: Returned error: execution reverted [object Object]
+{
+  "pairAddress": "0xaa6dc8f8da51b74b8679adf09f435f5d2b0ec242",
+  "pairIndex": 56849,
+  "token0": {
+    "address": "0x85f7d7a6db22239c0987613bc05fba9bce81bd46",
+    "name": "Meta-Shiba",
+    "decimals": "9",
+    "balance": "2,549,184,669,638,578.495391335",
+    "reserve": "2,508,123,525,413,699.094998383",
+    "imbalance": {
+      "diff": "41,061,144,224,879.220000000",
+      "usdPrice": 1.155610340092701e-14,
+      "value": "$0.47 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.007624354153596007",
+    "reserve": "0.007624354153596007",
+    "imbalance": false
+  }
+},
+error in pair: 0xc89c6f6eb2011e8e9d94b701e9ac885d147294f9,
+
+            Error: Returned error: execution reverted [object Object]
+error in pair: 0xb8365241ed050ce78b7bd1e3008d7786fb9666bf,
+
+            Error: Returned error: execution reverted [object Object]
+{
+  "pairAddress": "0x88622bf1c73d9c10023333e0048b8eff5e54e2a6",
+  "pairIndex": 56902,
+  "token0": {
+    "address": "0x941d8590d00b7c244048770e63cd4fea0137d5ad",
+    "name": "Zapdos Inu",
+    "decimals": "9",
+    "balance": "4,477,975,738.583154506",
+    "reserve": "4,442,525,483.566946356",
+    "imbalance": {
+      "diff": "35,450,255.016208384",
+      "usdPrice": 4.5442491207833296e-8,
+      "value": "$1.61 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.053104922564544265",
+    "reserve": "0.053104922564544265",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xdca79f1f78b866988081de8a06f92b5e5d316857",
+  "pairIndex": 57019,
+  "token0": {
+    "address": "0x1a7981d87e3b6a95c1516eb820e223fe979896b3",
+    "name": "MultiChainCapital",
+    "decimals": "9",
+    "balance": "999,744,402,810.567740551",
+    "reserve": "999,731,852,939.539020376",
+    "imbalance": {
+      "diff": "12,549,871.028797440",
+      "usdPrice": 1.85808e-7,
+      "value": "$2.33 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "49.869103454888239763",
+    "reserve": "49.869103454888239763",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xcc4066ba3ad6b4ef1ecd12ab98305f19aeb958db",
+  "pairIndex": 57026,
+  "token0": {
+    "address": "0x931ef62e7d510336e5db83095cf777771832dc42",
+    "name": "Humility Coin",
+    "decimals": "9",
+    "balance": "6,321,425,850.505238490",
+    "reserve": "6,285,629,363.826815419",
+    "imbalance": {
+      "diff": "35,796,486.678423550",
+      "usdPrice": 3.110930999634787e-8,
+      "value": "$1.11 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.051437738694373632",
+    "reserve": "0.051437738694373632",
+    "imbalance": false
+  }
+},
+error in pair: 0x16e7dba51a2b7b276b51e8ae60f7e5ee06c54a8d,
+
+            Error: Returned error: execution reverted [object Object]
+{
+  "pairAddress": "0x0c865e2e9a189f4d9441e0704a67d2b453790e90",
+  "pairIndex": 57091,
+  "token0": {
+    "address": "0xbf5ed0843b304f93332af890e4ce09ec96145976",
+    "name": "Pittys",
+    "decimals": "18",
+    "balance": "344,237,137.879373260894057073",
+    "reserve": "344,235,727.290767138047322934",
+    "imbalance": {
+      "diff": "1,410.588606095371000000",
+      "usdPrice": 0.00009571,
+      "value": "$0.14 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "8.809347203813951457",
+    "reserve": "8.809347203813951457",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x53e6e4bd6c7febb06716d1b02974c8e8c5c322f3",
+  "pairIndex": 57211,
+  "token0": {
+    "address": "0x8cd439cb2e0e01de6aa08c1c5e7f49e8b992de16",
+    "name": "Planet of Apes",
+    "decimals": "18",
+    "balance": "825,071,113,140.591257212472056352",
+    "reserve": "825,054,583,506.664624405778864929",
+    "imbalance": {
+      "diff": "16,529,633.926713531000000000",
+      "usdPrice": 7.623e-9,
+      "value": "$0.13 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "1.454365693199203360",
+    "reserve": "1.454365693199203360",
+    "imbalance": false
+  }
+},
+error in pair: 0x648a831e913c044b636f60f952243f15d8e5366c,
+
+            Error: Returned error: execution reverted [object Object]
+error in pair: 0xc2c1b1dcb36bfc526151613e487fa2a2bac8def7,
+
+            Error: Returned error: execution reverted: Amount must be less than total reflections [object Object]
+{
+  "pairAddress": "0x6b66f03078abf11cdebdda10a237dd4a9119704c",
+  "pairIndex": 57468,
+  "token0": {
+    "address": "0xbfd3408142cddc7114b66763402f03f783e79a8f",
+    "name": "Jessie Coin",
+    "decimals": "9",
+    "balance": "3,424,782,157.374988384",
+    "reserve": "3,404,007,628.834183468",
+    "imbalance": {
+      "diff": "20,774,528.540804610",
+      "usdPrice": 3.249279655260456e-8,
+      "value": "$0.68 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.029095132301611719",
+    "reserve": "0.029095132301611719",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x1b0c0d79697d53b3406de0ca352212b08e857e74",
+  "pairIndex": 57497,
+  "token0": {
+    "address": "0x5192767f0fabf3efadda4728441e076ab9dd4c6b",
+    "name": "CatAndDog",
+    "decimals": "9",
+    "balance": "5,920,039,797.805534201",
+    "reserve": "5,859,597,595.405984391",
+    "imbalance": {
+      "diff": "60,442,202.399549440",
+      "usdPrice": 1.9318979084104008e-8,
+      "value": "$1.17 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.029777942345933826",
+    "reserve": "0.029777942345933826",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xd97bf7a5d2357f8fa460ba7c5571c6db08e25028",
+  "pairIndex": 57516,
+  "token0": {
+    "address": "0x1a7981d87e3b6a95c1516eb820e223fe979896b3",
+    "name": "MultiChainCapital",
+    "decimals": "9",
+    "balance": "987,591,914.689043716",
+    "reserve": "672,323,306.931601606",
+    "imbalance": {
+      "diff": "315,268,607.757442050",
+      "usdPrice": 1.85808e-7,
+      "value": "$58.58 🦄"
+    }
+  },
+  "token1": {
+    "address": "0x7ed037eb22982b839a5f0b67f6a652c9857ccd4d",
+    "name": "MultiStakeCapital",
+    "decimals": "9",
+    "balance": "1,032,622,005.570359238",
+    "reserve": "966,670,844.968480017",
+    "imbalance": {
+      "diff": "65,951,160.601879300",
+      "usdPrice": 3.2113e-8,
+      "value": "$2.12 🦄"
+    }
+  }
+},
+error in pair: 0xe90282960619493714d762929c6fe7517cbcd445,
+
+            Error: Returned error: execution reverted: Amount must be less than total reflections [object Object]
+{
+  "pairAddress": "0x69c12ac08585c51388c377eff272f3e4a8ef0497",
+  "pairIndex": 58292,
+  "token0": {
+    "address": "0x9a21f5b147279080526a0a81ebb666fe56a1c85a",
+    "name": "Metaverse Shiba",
+    "decimals": "9",
+    "balance": "6,972,109,621,783.283412582",
+    "reserve": "6,490,274,221,243.574309079",
+    "imbalance": {
+      "diff": "481,835,400,539.709400000",
+      "usdPrice": 2.5464979594986055e-11,
+      "value": "$12.27 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.043475951884991166",
+    "reserve": "0.043475951884991166",
+    "imbalance": false
+  }
+},
+error in pair: 0x3dee2b2efbfe2eea46ef53901406922f582d7b36,
+
+            Error: Returned error: execution reverted: Amount must be less than total reflections [object Object]
+{
+  "pairAddress": "0xe4fa1e782163e649bebf5440534cbe6d797168f8",
+  "pairIndex": 59340,
+  "token0": {
+    "address": "0x5e621e48fa36faeaef7834b3d5caabb10d755001",
+    "name": "Fear of Market Crash",
+    "decimals": "9",
+    "balance": "271,473,555,823.276858633",
+    "reserve": "271,452,231,791.734117375",
+    "imbalance": {
+      "diff": "21,324,031.542722560",
+      "usdPrice": 2.1770229350383624e-7,
+      "value": "$4.64 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "15.545301205253553063",
+    "reserve": "15.545301205253553063",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0x56a40f69bfe2cd4a8a1f87be9c1ff86882d75502",
+  "pairIndex": 59861,
+  "token0": {
+    "address": "0x43cc83a340b757bc0d0824812aaeb5865addebe7",
+    "name": "Vampire Inu",
+    "decimals": "9",
+    "balance": "485,185,834,355.018911750",
+    "reserve": "485,179,642,506.454101512",
+    "imbalance": {
+      "diff": "6,191,848.564785152",
+      "usdPrice": 5.245075446641832e-8,
+      "value": "$0.32 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "6.694174514723227615",
+    "reserve": "6.694174514723227615",
+    "imbalance": false
+  }
+},
+{
+  "pairAddress": "0xb080e984430a8b34973a1f7b28ec7a5698bbff72",
+  "pairIndex": 59954,
+  "token0": {
+    "address": "0xbd5ae37d5a4b9210d75a7145cbfd78a34ccdad95",
+    "name": "Bad Santa",
+    "decimals": "9",
+    "balance": "5,154,819,266.646489860",
+    "reserve": "5,107,898,681.781687035",
+    "imbalance": {
+      "diff": "46,920,584.864802820",
+      "usdPrice": 3.023372563095094e-8,
+      "value": "$1.42 🦄"
+    }
+  },
+  "token1": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": "18",
+    "balance": "0.040623436755740723",
+    "reserve": "0.040623436755740723",
+    "imbalance": false
+  }
+},
+finsihed
